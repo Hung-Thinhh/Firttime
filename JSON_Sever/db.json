@@ -1,0 +1,14 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Kiến thức cho người mới bắt đầu",
+      "description": "Kiến thức cơ bản dành cho người mới , không phân biệt bạn là Front-end, back-end hay Devops"
+    },
+    {
+      "name": "Xây dựng Web với NodeJS & ExpressJS",
+      "description": "Xây dựng web trong thực tế với NodeJS & ExpressJS\n",
+      "id": 2
+    }
+  ]
+}

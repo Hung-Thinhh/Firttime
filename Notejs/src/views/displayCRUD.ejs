@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get-CRUD</title>
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        .Edit{
+            background-color: beige;
+            padding: 5px;
+            cursor: pointer;
+        }
+        .Delete{
+            background-color: burlywood;
+            padding: 5px;
+            cursor: pointer;
+        }
+        </style>
+</head>
+<body>
+    <table>
+        <tr>
+          <th>ID</th>
+          <th>Login name</th>
+          <th>Password</th>
+          <th>User Name</th>
+          <th>Address</th>
+          <th>Email</th>
+          <th>PhoneNumber </th>
+          <th>Action</th>
+        </tr>
+        <% for(let i=0; i < dataTable.length; i++) { %>
+            <tr>
+              <td><%= dataTable[i].id %></td>
+              <td><%= dataTable[i].LoginName %></td>
+              <td><%= dataTable[i].password %></td>
+              <td><%= dataTable[i].UserName %></td>
+              <td><%= dataTable[i].address %></td>
+              <td><%= dataTable[i].email %></td>
+              <td><%= dataTable[i].PhoneNumber %></td>
+              <td>
+                <a href="/edit-crud?id=<%=dataTable[i].id %>" class="Edit">Edit</a>
+                <a href="/delete-crud?id=<%=dataTable[i].id %>" class="Delete">Delete</a>
+            </td>
+            </tr>
+         <% } %>
+        
+        
+      </table> 
+</body>
+</html>

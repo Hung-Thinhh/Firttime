@@ -1,0 +1,453 @@
+[
+     {
+          "bff_meta": null,
+          "error": null,
+          "error_msg": null,
+          "data": [
+               {
+                    "group": "A",
+                    "locations": [
+                         "An Giang"
+                    ],
+                    "translated_group": "A",
+                    "translated_locations": [
+                         "An Giang"
+                    ],
+                    "location_tag_ids": [
+                         "1400000262"
+                    ]
+               },
+               {
+                    "group": "B",
+                    "locations": [
+                         "Bi\u0300nh Thu\u00e2\u0323n",
+                         "B\u00e0 R\u1ecba - V\u0169ng T\u00e0u",
+                         "B\u00ecnh D\u01b0\u01a1ng",
+                         "B\u00ecnh Ph\u01b0\u1edbc",
+                         "B\u00ecnh \u0110\u1ecbnh",
+                         "B\u1ea1c Li\u00eau",
+                         "B\u1eafc Giang",
+                         "B\u1eafc K\u1ea1n",
+                         "B\u1eafc Ninh",
+                         "B\u1ebfn Tre"
+                    ],
+                    "translated_group": "B",
+                    "translated_locations": [
+                         "Bi\u0300nh Thu\u00e2\u0323n",
+                         "B\u00e0 R\u1ecba - V\u0169ng T\u00e0u",
+                         "B\u00ecnh D\u01b0\u01a1ng",
+                         "B\u00ecnh Ph\u01b0\u1edbc",
+                         "B\u00ecnh \u0110\u1ecbnh",
+                         "B\u1ea1c Li\u00eau",
+                         "B\u1eafc Giang",
+                         "B\u1eafc K\u1ea1n",
+                         "B\u1eafc Ninh",
+                         "B\u1ebfn Tre"
+                    ],
+                    "location_tag_ids": [
+                         "1058870",
+                         "700000286",
+                         "700000281",
+                         "1048876",
+                         "1400000243",
+                         "1058902",
+                         "1400005295",
+                         "1058909",
+                         "1058898",
+                         "1400000233"
+                    ]
+               },
+               {
+                    "group": "C",
+                    "locations": [
+                         "Cao B\u1eb1ng",
+                         "C\u00e0 Mau",
+                         "C\u1ea7n Th\u01a1"
+                    ],
+                    "translated_group": "C",
+                    "translated_locations": [
+                         "Cao B\u1eb1ng",
+                         "C\u00e0 Mau",
+                         "C\u1ea7n Th\u01a1"
+                    ],
+                    "location_tag_ids": [
+                         "1058873",
+                         "1048873",
+                         "1400000224"
+                    ]
+               },
+               {
+                    "group": "G",
+                    "locations": [
+                         "Gia Lai"
+                    ],
+                    "translated_group": "G",
+                    "translated_locations": [
+                         "Gia Lai"
+                    ],
+                    "location_tag_ids": [
+                         "1058949"
+                    ]
+               },
+               {
+                    "group": "H",
+                    "locations": [
+                         "Huy\u1ec7n B\u00ecnh Ch\u00e1nh",
+                         "Huy\u1ec7n Gia L\u00e2m",
+                         "Huy\u1ec7n Ho\u00e0i \u0110\u1ee9c",
+                         "Huy\u1ec7n Thanh Oai",
+                         "Huy\u1ec7n Thanh Tr\u00ec",
+                         "Huy\u1ec7n Th\u01b0\u1eddng T\u00edn",
+                         "Huy\u1ec7n \u0110\u00f4ng Anh",
+                         "H\u00e0 Giang",
+                         "H\u00e0 Nam",
+                         "H\u00e0 N\u1ed9i",
+                         "H\u00e0 T\u0129nh",
+                         "H\u00f2a B\u00ecnh",
+                         "H\u01b0ng Y\u00ean",
+                         "H\u1ea3i D\u01b0\u01a1ng",
+                         "H\u1ea3i Ph\u00f2ng",
+                         "H\u1eadu Giang"
+                    ],
+                    "translated_group": "H",
+                    "translated_locations": [
+                         "Huy\u1ec7n B\u00ecnh Ch\u00e1nh",
+                         "Huy\u1ec7n Gia L\u00e2m",
+                         "Huy\u1ec7n Ho\u00e0i \u0110\u1ee9c",
+                         "Huy\u1ec7n Thanh Oai",
+                         "Huy\u1ec7n Thanh Tr\u00ec",
+                         "Huy\u1ec7n Th\u01b0\u1eddng T\u00edn",
+                         "Huy\u1ec7n \u0110\u00f4ng Anh",
+                         "H\u00e0 Giang",
+                         "H\u00e0 Nam",
+                         "H\u00e0 N\u1ed9i",
+                         "H\u00e0 T\u0129nh",
+                         "H\u00f2a B\u00ecnh",
+                         "H\u01b0ng Y\u00ean",
+                         "H\u1ea3i D\u01b0\u01a1ng",
+                         "H\u1ea3i Ph\u00f2ng",
+                         "H\u1eadu Giang"
+                    ],
+                    "location_tag_ids": [
+                         "1400000241",
+                         "1400005304",
+                         "1400005276",
+                         "1400005268",
+                         "1400000215",
+                         "700000291",
+                         "1400000228",
+                         "1058920",
+                         "1058878",
+                         "700000280",
+                         "1400000220",
+                         "1400000229",
+                         "1400005278",
+                         "1058880",
+                         "1400005281",
+                         "1400005293"
+                    ]
+               },
+               {
+                    "group": "K",
+                    "locations": [
+                         "Kh\u00e1nh H\u00f2a",
+                         "Ki\u00ean Giang",
+                         "Kon Tum"
+                    ],
+                    "translated_group": "K",
+                    "translated_locations": [
+                         "Kh\u00e1nh H\u00f2a",
+                         "Ki\u00ean Giang",
+                         "Kon Tum"
+                    ],
+                    "location_tag_ids": [
+                         "1400000276",
+                         "1048891",
+                         "1048886"
+                    ]
+               },
+               {
+                    "group": "L",
+                    "locations": [
+                         "Lai Ch\u00e2u",
+                         "Long An",
+                         "L\u00e0o Cai",
+                         "L\u00e2m \u0110\u1ed3ng",
+                         "L\u1ea1ng S\u01a1n"
+                    ],
+                    "translated_group": "L",
+                    "translated_locations": [
+                         "Lai Ch\u00e2u",
+                         "Long An",
+                         "L\u00e0o Cai",
+                         "L\u00e2m \u0110\u1ed3ng",
+                         "L\u1ea1ng S\u01a1n"
+                    ],
+                    "location_tag_ids": [
+                         "1048957",
+                         "1058883",
+                         "1048880",
+                         "1400000254",
+                         "1058925"
+                    ]
+               },
+               {
+                    "group": "N",
+                    "locations": [
+                         "Nam \u0110\u1ecbnh",
+                         "Ngh\u1ec7 An",
+                         "Ninh B\u00ecnh",
+                         "Ninh Thu\u1eadn",
+                         "N\u01b0\u1edbc Ngo\u00e0i"
+                    ],
+                    "translated_group": "N",
+                    "translated_locations": [
+                         "Nam \u0110\u1ecbnh",
+                         "Ngh\u1ec7 An",
+                         "Ninh B\u00ecnh",
+                         "Ninh Thu\u1eadn",
+                         "N\u01b0\u1edbc Ngo\u00e0i"
+                    ],
+                    "location_tag_ids": [
+                         "1400005284",
+                         "1400005292",
+                         "1400000264",
+                         "1058910",
+                         "822059849522188"
+                    ]
+               },
+               {
+                    "group": "P",
+                    "locations": [
+                         "Ph\u00fa Th\u1ecd",
+                         "Ph\u00fa Y\u00ean"
+                    ],
+                    "translated_group": "P",
+                    "translated_locations": [
+                         "Ph\u00fa Th\u1ecd",
+                         "Ph\u00fa Y\u00ean"
+                    ],
+                    "location_tag_ids": [
+                         "1400005296",
+                         "1048940"
+                    ]
+               },
+               {
+                    "group": "Q",
+                    "locations": [
+                         "Qu\u1ea3ng B\u00ecnh",
+                         "Qu\u1ea3ng Nam",
+                         "Qu\u1ea3ng Ng\u00e3i",
+                         "Qu\u1ea3ng Ninh",
+                         "Qu\u1ea3ng Tr\u1ecb",
+                         "Qu\u1eadn 1",
+                         "Qu\u1eadn 10",
+                         "Qu\u1eadn 11",
+                         "Qu\u1eadn 12",
+                         "Qu\u1eadn 3",
+                         "Qu\u1eadn 6",
+                         "Qu\u1eadn 7",
+                         "Qu\u1eadn 8",
+                         "Qu\u1eadn Ba \u0110\u00ecnh",
+                         "Qu\u1eadn B\u00ecnh Th\u1ea1nh",
+                         "Qu\u1eadn B\u00ecnh T\u00e2n",
+                         "Qu\u1eadn B\u1eafc T\u1eeb Li\u00eam",
+                         "Qu\u1eadn C\u1ea7u Gi\u1ea5y",
+                         "Qu\u1eadn G\u00f2 V\u1ea5p",
+                         "Qu\u1eadn Hai B\u00e0 Tr\u01b0ng",
+                         "Qu\u1eadn Ho\u00e0n Ki\u1ebfm",
+                         "Qu\u1eadn Ho\u00e0ng Mai",
+                         "Qu\u1eadn H\u00e0 \u0110\u00f4ng",
+                         "Qu\u1eadn Long Bi\u00ean",
+                         "Qu\u1eadn Nam T\u1eeb Li\u00eam",
+                         "Qu\u1eadn Ph\u00fa Nhu\u1eadn",
+                         "Qu\u1eadn Thanh Xu\u00e2n",
+                         "Qu\u1eadn T\u00e2n B\u00ecnh",
+                         "Qu\u1eadn T\u00e2n Ph\u00fa",
+                         "Qu\u1eadn T\u00e2y H\u1ed3",
+                         "Qu\u1eadn \u0110\u1ed1ng \u0110a"
+                    ],
+                    "translated_group": "Q",
+                    "translated_locations": [
+                         "Qu\u1ea3ng B\u00ecnh",
+                         "Qu\u1ea3ng Nam",
+                         "Qu\u1ea3ng Ng\u00e3i",
+                         "Qu\u1ea3ng Ninh",
+                         "Qu\u1ea3ng Tr\u1ecb",
+                         "Qu\u1eadn 1",
+                         "Qu\u1eadn 10",
+                         "Qu\u1eadn 11",
+                         "Qu\u1eadn 12",
+                         "Qu\u1eadn 3",
+                         "Qu\u1eadn 6",
+                         "Qu\u1eadn 7",
+                         "Qu\u1eadn 8",
+                         "Qu\u1eadn Ba \u0110\u00ecnh",
+                         "Qu\u1eadn B\u00ecnh Th\u1ea1nh",
+                         "Qu\u1eadn B\u00ecnh T\u00e2n",
+                         "Qu\u1eadn B\u1eafc T\u1eeb Li\u00eam",
+                         "Qu\u1eadn C\u1ea7u Gi\u1ea5y",
+                         "Qu\u1eadn G\u00f2 V\u1ea5p",
+                         "Qu\u1eadn Hai B\u00e0 Tr\u01b0ng",
+                         "Qu\u1eadn Ho\u00e0n Ki\u1ebfm",
+                         "Qu\u1eadn Ho\u00e0ng Mai",
+                         "Qu\u1eadn H\u00e0 \u0110\u00f4ng",
+                         "Qu\u1eadn Long Bi\u00ean",
+                         "Qu\u1eadn Nam T\u1eeb Li\u00eam",
+                         "Qu\u1eadn Ph\u00fa Nhu\u1eadn",
+                         "Qu\u1eadn Thanh Xu\u00e2n",
+                         "Qu\u1eadn T\u00e2n B\u00ecnh",
+                         "Qu\u1eadn T\u00e2n Ph\u00fa",
+                         "Qu\u1eadn T\u00e2y H\u1ed3",
+                         "Qu\u1eadn \u0110\u1ed1ng \u0110a"
+                    ],
+                    "location_tag_ids": [
+                         "700005302",
+                         "1400000236",
+                         "1400000285",
+                         "1400000227",
+                         "1400000308",
+                         "1400005271",
+                         "1058885",
+                         "1400005300",
+                         "700000287",
+                         "1058877",
+                         "700000278",
+                         "1400005275",
+                         "1400000231",
+                         "1400005286",
+                         "1400005287",
+                         "1058871",
+                         "1400005277",
+                         "700000283",
+                         "700000282",
+                         "1400005294",
+                         "1400005289",
+                         "1400000209",
+                         "700000284",
+                         "1400005273",
+                         "1400000235",
+                         "1058882",
+                         "700000290",
+                         "1400005267",
+                         "1400005280",
+                         "1400005274",
+                         "1400000217"
+                    ]
+               },
+               {
+                    "group": "S",
+                    "locations": [
+                         "S\u00f3c Tr\u0103ng",
+                         "S\u01a1n La"
+                    ],
+                    "translated_group": "S",
+                    "translated_locations": [
+                         "S\u00f3c Tr\u0103ng",
+                         "S\u01a1n La"
+                    ],
+                    "location_tag_ids": [
+                         "1400000312",
+                         "1058933"
+                    ]
+               },
+               {
+                    "group": "T",
+                    "locations": [
+                         "Thanh H\u00f3a",
+                         "Th\u00e0nh Ph\u1ed1 Th\u1ee7 \u0110\u1ee9c",
+                         "Th\u00e1i B\u00ecnh",
+                         "Th\u00e1i Nguy\u00ean",
+                         "Th\u1eeba Thi\u00ean Hu\u1ebf",
+                         "Ti\u1ec1n Giang",
+                         "Tp. H\u1ed3 Ch\u00ed Minh",
+                         "Tr\u00e0 Vinh",
+                         "Tuy\u00ean Quang",
+                         "T\u00e2y Ninh"
+                    ],
+                    "translated_group": "T",
+                    "translated_locations": [
+                         "Thanh H\u00f3a",
+                         "Th\u00e0nh Ph\u1ed1 Th\u1ee7 \u0110\u1ee9c",
+                         "Th\u00e1i B\u00ecnh",
+                         "Th\u00e1i Nguy\u00ean",
+                         "Th\u1eeba Thi\u00ean Hu\u1ebf",
+                         "Ti\u1ec1n Giang",
+                         "Tp. H\u1ed3 Ch\u00ed Minh",
+                         "Tr\u00e0 Vinh",
+                         "Tuy\u00ean Quang",
+                         "T\u00e2y Ninh"
+                    ],
+                    "location_tag_ids": [
+                         "1058872",
+                         "700000279",
+                         "1400000232",
+                         "1400000270",
+                         "1058908",
+                         "1400005270",
+                         "1400005265",
+                         "1400000213",
+                         "1048936",
+                         "1400000306"
+                    ]
+               },
+               {
+                    "group": "V",
+                    "locations": [
+                         "V\u0129nh Long",
+                         "V\u0129nh Ph\u00fac"
+                    ],
+                    "translated_group": "V",
+                    "translated_locations": [
+                         "V\u0129nh Long",
+                         "V\u0129nh Ph\u00fac"
+                    ],
+                    "location_tag_ids": [
+                         "1048882",
+                         "1400000247"
+                    ]
+               },
+               {
+                    "group": "Y",
+                    "locations": [
+                         "Y\u00ean B\u00e1i"
+                    ],
+                    "translated_group": "Y",
+                    "translated_locations": [
+                         "Y\u00ean B\u00e1i"
+                    ],
+                    "location_tag_ids": [
+                         "1048911"
+                    ]
+               },
+               {
+                    "group": "\u0110",
+                    "locations": [
+                         "\u0110i\u1ec7n Bi\u00ean",
+                         "\u0110\u00e0 N\u1eb5ng",
+                         "\u0110\u1eafk L\u1eafk",
+                         "\u0110\u1eafk N\u00f4ng",
+                         "\u0110\u1ed3ng Nai",
+                         "\u0110\u1ed3ng Th\u00e1p"
+                    ],
+                    "translated_group": "\u0110",
+                    "translated_locations": [
+                         "\u0110i\u1ec7n Bi\u00ean",
+                         "\u0110\u00e0 N\u1eb5ng",
+                         "\u0110\u1eafk L\u1eafk",
+                         "\u0110\u1eafk N\u00f4ng",
+                         "\u0110\u1ed3ng Nai",
+                         "\u0110\u1ed3ng Th\u00e1p"
+                    ],
+                    "location_tag_ids": [
+                         "700000318",
+                         "1400000245",
+                         "1400005312",
+                         "700005322",
+                         "1400000212",
+                         "1400005302"
+                    ]
+               }
+          ]
+     }
+]

@@ -1,0 +1,126 @@
+[
+     {
+          "bff_meta": null,
+          "data": {
+               "shops": [
+                    {
+                         "recommendation_info": null,
+                         "url": "https://shopee.vn/huggies",
+                         "image": "vn-50009109-d549ed49b020d08c5eb83b32119feed8",
+                         "shopid": 35284879,
+                         "promo_text": "Mua l\u00e0 c\u00f3 qu\u00e0",
+                         "recommendation_algorithm": null
+                    },
+                    {
+                         "recommendation_info": null,
+                         "url": "https://shopee.vn/Sabinasale",
+                         "image": "0b7528892f34b1ceb5e7e3883c34adb1",
+                         "shopid": 58542133,
+                         "promo_text": "N\u1ed9i y Sabina 9k",
+                         "recommendation_algorithm": null
+                    },
+                    {
+                         "recommendation_info": null,
+                         "url": "https://shopee.vn/merries",
+                         "image": "c7b843e477e90f2a0ead5675b457f71a",
+                         "shopid": 156716198,
+                         "promo_text": "Mua l\u00e0 c\u00f3 qu\u00e0",
+                         "recommendation_algorithm": null
+                    },
+                    {
+                         "recommendation_info": null,
+                         "url": "https://shopee.vn/lghealthcare",
+                         "image": "6074cc75484d535e4de665bce62fe879",
+                         "shopid": 241091245,
+                         "promo_text": "Da xinh qu\u00e0 x\u1ecbn",
+                         "recommendation_algorithm": null
+                    },
+                    {
+                         "recommendation_info": null,
+                         "url": "https://shopee.vn/zerosports-chinh-hang",
+                         "image": "be691f1a5b5a715c933e55f7fd2d7f0b",
+                         "shopid": 277746668,
+                         "promo_text": "Sale ch\u00e0o h\u00e8 50%",
+                         "recommendation_algorithm": null
+                    },
+                    {
+                         "recommendation_info": null,
+                         "url": "https://shopee.vn/ariul",
+                         "image": "c2091ad7aa1f207aabbab9d112f6cfa4",
+                         "shopid": 540180615,
+                         "promo_text": "Mua l\u00e0 c\u00f3 qu\u00e0",
+                         "recommendation_algorithm": null
+                    },
+                    {
+                         "recommendation_info": null,
+                         "url": "https://shopee.vn/caudalie_vn",
+                         "image": "ee98c39797a226f6528a154a36303104",
+                         "shopid": 514870935,
+                         "promo_text": "Si\u00eau \u01b0u \u0111\u00e3i \u0111\u1ed9c quy\u1ec1n",
+                         "recommendation_algorithm": null
+                    },
+                    {
+                         "recommendation_info": null,
+                         "url": "https://shopee.vn/dearjose-brand-day",
+                         "image": "00413fcf230d45da42838f70129559e5",
+                         "shopid": 325726480,
+                         "promo_text": "\u01afu \u0111\u00e3i \u0111\u1ebfn 40%",
+                         "recommendation_algorithm": null
+                    },
+                    {
+                         "recommendation_info": null,
+                         "url": "https://shopee.vn/uu-dai-longhungmobile",
+                         "image": "db78ab48abff07be730ed437fe629499",
+                         "shopid": 331695868,
+                         "promo_text": "\u0110i\u1ec7n tho\u1ea1i sale kh\u1ee7ng",
+                         "recommendation_algorithm": null
+                    },
+                    {
+                         "recommendation_info": null,
+                         "url": "https://shopee.vn/rohto",
+                         "image": "fbc36e59ad705a69422e5a6a047fa870",
+                         "shopid": 138781248,
+                         "promo_text": "Mua 2 t\u1eb7ng 1",
+                         "recommendation_algorithm": null
+                    },
+                    {
+                         "recommendation_info": null,
+                         "url": "https://shopee.vn/shopdunk-day",
+                         "image": "ec8dc30ba0c5ba95f90021fe74ef076b",
+                         "shopid": 288286284,
+                         "promo_text": "Voucher \u0111\u1ebfn 1 tri\u1ec7u",
+                         "recommendation_algorithm": null
+                    },
+                    {
+                         "recommendation_info": null,
+                         "url": "https://shopee.vn/sexylook",
+                         "image": "00c6797ae61187c23dd246f809a2d32a",
+                         "shopid": 139624690,
+                         "promo_text": "\u01afu \u0111\u00e3i \u0111\u1ebfn 50%",
+                         "recommendation_algorithm": null
+                    },
+                    {
+                         "recommendation_info": null,
+                         "url": "https://shopee.vn/happy-phone-day",
+                         "image": "3973edd5867e12d83a6fd42cacadd4e7",
+                         "shopid": 68527388,
+                         "promo_text": "Gi\u1ea3m \u0111\u1ebfn 30%",
+                         "recommendation_algorithm": null
+                    },
+                    {
+                         "recommendation_info": null,
+                         "url": "https://shopee.vn/82x_official_store",
+                         "image": "731f27522228f5f7c6356d7d75e3ed2a",
+                         "shopid": 382291312,
+                         "promo_text": "Collagen da kh\u1ecfe t\u1eeb trong",
+                         "recommendation_algorithm": null
+                    }
+               ],
+               "brand_of_the_week": {
+                    "homepage_image": "vn-50009109-f3dba4d7310df4d851bc86534b2abde2"
+               }
+          },
+          "error": null,
+          "error_msg": null
+     }
+]

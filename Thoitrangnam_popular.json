@@ -1,0 +1,154 @@
+[
+     {
+          "data": {
+               "popular_collection_list": [
+                    {
+                         "module_id": 254,
+                         "catid": 11035567,
+                         "group_id": 785,
+                         "title": "SI\u00caU SHOP TH\u1ecaNH H\u00c0NH - BUNG DEAL SI\u00caU PH\u1ea8M",
+                         "description": "SI\u00caU SHOP TH\u1ecaNH H\u00c0NH - BUNG DEAL SI\u00caU PH\u1ea8M",
+                         "redirect_url": null,
+                         "enable_subtitle_text": true,
+                         "displayed_platform": [
+                              1,
+                              0
+                         ],
+                         "display_start_time": 0,
+                         "display_end_time": 0,
+                         "collection_list": [
+                              {
+                                   "collection_id": 1160494,
+                                   "order": 1,
+                                   "name": "FREESHIP & HOAN XU XTRA",
+                                   "title": "FREESHIP & HO\u00c0N XU XTRA",
+                                   "subtitle": "FREESHIP & HO\u00c0N XU XTRA",
+                                   "img": "3854ad0615cfa2d15eb06a446816465d",
+                                   "img_status": 6,
+                                   "item_count": null,
+                                   "normal_item_price_min": 150000000
+                              },
+                              {
+                                   "collection_id": 1160495,
+                                   "order": 2,
+                                   "name": "SHOP XU HUONG",
+                                   "title": "SHOP XU H\u01af\u1edaNG ",
+                                   "subtitle": "SHOP XU H\u01af\u1edaNG ",
+                                   "img": "f05c3231cb59b6d0c233db3ea7a30b8f",
+                                   "img_status": 6,
+                                   "item_count": null,
+                                   "normal_item_price_min": 200000000
+                              },
+                              {
+                                   "collection_id": 1133208,
+                                   "order": 3,
+                                   "name": "HANG QUOC TE",
+                                   "title": "H\u00c0NG QU\u1ed0C T\u1ebe",
+                                   "subtitle": "H\u00c0NG QU\u1ed0C T\u1ebe",
+                                   "img": "40ccf6a1162d77a99cd703885034d631",
+                                   "img_status": 6,
+                                   "item_count": null,
+                                   "normal_item_price_min": 1500000000
+                              },
+                              {
+                                   "collection_id": 1160496,
+                                   "order": 4,
+                                   "name": "SHOPEE MALL",
+                                   "title": "SHOPEE MALL",
+                                   "subtitle": "SHOPEE MALL",
+                                   "img": "19b560edefa4b6869c0eac2f979c9f64",
+                                   "img_status": 6,
+                                   "item_count": null,
+                                   "normal_item_price_min": 400000000
+                              },
+                              {
+                                   "collection_id": 1160497,
+                                   "order": 5,
+                                   "name": "SHOP HANG XUONG",
+                                   "title": "SHOP H\u00c0NG X\u01af\u1edeNG",
+                                   "subtitle": "SHOP H\u00c0NG X\u01af\u1edeNG",
+                                   "img": "f4499fa8d8fec743f8d8b2e63a973e79",
+                                   "img_status": 6,
+                                   "item_count": null,
+                                   "normal_item_price_min": 250000000
+                              }
+                         ]
+                    },
+                    {
+                         "module_id": 205,
+                         "catid": 11035567,
+                         "group_id": 784,
+                         "title": "KI\u1ec2U C\u00c1CH TH\u1ecaNH H\u00c0NH - DI\u1ec6N B\u1ea2NH M\u1eb6C SANG",
+                         "description": "KI\u1ec2U C\u00c1CH TH\u1ecaNH H\u00c0NH - DI\u1ec6N B\u1ea2NH M\u1eb6C SANG",
+                         "redirect_url": null,
+                         "enable_subtitle_text": true,
+                         "displayed_platform": [
+                              1,
+                              0
+                         ],
+                         "display_start_time": 1661827667,
+                         "display_end_time": 0,
+                         "collection_list": [
+                              {
+                                   "collection_id": 1587452,
+                                   "order": 1,
+                                   "name": "aoamthoitrang",
+                                   "title": "SOFT BOY - \u00c1O HOODIE",
+                                   "subtitle": "SOFT BOY - \u00c1O HOODIE",
+                                   "img": "8b9c7bca30e24f57eee6da1bd89a4c3f",
+                                   "img_status": 6,
+                                   "item_count": null,
+                                   "normal_item_price_min": 1900000000
+                              },
+                              {
+                                   "collection_id": 1612116,
+                                   "order": 2,
+                                   "name": "eboy",
+                                   "title": "E-BOY - \u00c1O S\u01a0 MI D\u00c0I TAY",
+                                   "subtitle": "E-BOY - \u00c1O S\u01a0 MI D\u00c0I TAY",
+                                   "img": "5e21afae44f0b91b3fb2cffc4b676813",
+                                   "img_status": 6,
+                                   "item_count": null,
+                                   "normal_item_price_min": 5500000000
+                              },
+                              {
+                                   "collection_id": 1620656,
+                                   "order": 3,
+                                   "name": "coolboy11",
+                                   "title": "COOL BOY - \u00c1O KHO\u00c1C",
+                                   "subtitle": "COOL BOY - \u00c1O KHO\u00c1C",
+                                   "img": "0fee8bc133678128a45bac637bc49070",
+                                   "img_status": 6,
+                                   "item_count": null,
+                                   "normal_item_price_min": 2000000000
+                              },
+                              {
+                                   "collection_id": 1620658,
+                                   "order": 4,
+                                   "name": "cityboy11",
+                                   "title": "CITY BOY - QU\u1ea6N JEANS",
+                                   "subtitle": "CITY BOY - QU\u1ea6N JEANS",
+                                   "img": "7e4be88938344d43e0e2f36404b6d151",
+                                   "img_status": 6,
+                                   "item_count": null,
+                                   "normal_item_price_min": 6000000000
+                              },
+                              {
+                                   "collection_id": 1587660,
+                                   "order": 5,
+                                   "name": "sportyboy11",
+                                   "title": "SPORTY BOY - QU\u1ea6N JOGGER",
+                                   "subtitle": "SPORTY BOY - QU\u1ea6N JOGGER",
+                                   "img": "3a2ab0a9b24b7685fb11a2fd9ad8ef8e",
+                                   "img_status": 6,
+                                   "item_count": null,
+                                   "normal_item_price_min": 2000000000
+                              }
+                         ]
+                    }
+               ]
+          },
+          "error": 0,
+          "error_msg": ""
+     }
+]

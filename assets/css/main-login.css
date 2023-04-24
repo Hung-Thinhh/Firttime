@@ -1,0 +1,72 @@
+body,html{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.form{
+    min-height: 480px;
+}
+.form-title{
+    min-height: 100px;
+}
+.form-group{
+    height: auto;
+}
+.form-erro{
+    display: flex;
+    height: 60px;
+    border: 1px solid #ee4d2d;
+    background-color: #ffede9;
+    margin-bottom: 30px;
+}
+.erro-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    color: #ee4d2d;
+}
+.error-title{
+    font-size: 14px;
+    padding: 15px 0px;
+}
+.button-login{
+    margin-top: 35px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.btn-other{
+    margin: 0 5px;
+    padding: 0 5px;
+}
+.name-icon{
+    font-size: 0.875rem;
+    color: black;
+}
+.form-footer {
+    margin-top: 0px;
+    min-height: 45px;
+}
+.btn-login{
+    cursor: pointer;
+    opacity: 1;
+}
+.password-other{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.password-forget a,.login-sms a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(53, 53, 173);
+}
+.displayed {
+    display: none;
+}
+.oninput{
+    border-color: black ;
+    box-shadow: 0px 0px 5px 2px rgb(213, 212, 212);
+}

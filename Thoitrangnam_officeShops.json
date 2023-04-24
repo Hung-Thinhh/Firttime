@@ -1,0 +1,264 @@
+[
+     {
+          "error": 0,
+          "error_msg": null,
+          "data": {
+               "total": 223,
+               "official_shops": [
+                    {
+                         "userid": 40343949,
+                         "username": "sp.btw2",
+                         "shopid": 40342563,
+                         "shop_name": "Aviano Menswear",
+                         "logo": "3d150be843d6d2ef804953b0d481d2da",
+                         "logo_pc": "513f589c10254512669d3d8b50a6dea7",
+                         "shop_collection_id": 0,
+                         "ctime": 1620981895,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 225913958,
+                         "username": "poloman.vn",
+                         "shopid": 225909574,
+                         "shop_name": "HAPPYHOW",
+                         "logo": "123cc164a4752e490fabf1615d426e24",
+                         "logo_pc": "d1aa441638492fb588741d01af604811",
+                         "shop_collection_id": 0,
+                         "ctime": 1638428571,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 68615221,
+                         "username": "tsla.store",
+                         "shopid": 68613764,
+                         "shop_name": "TSLA Store Qu\u1ea7n \u00e1o legging nam",
+                         "logo": "43379c63d96678378ac4e96b9143ad76",
+                         "logo_pc": "5c1936f863ed34b0e77299b2dbb96365",
+                         "shop_collection_id": 0,
+                         "ctime": 1650257648,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 24711470,
+                         "username": "coolmate.vn",
+                         "shopid": 24710134,
+                         "shop_name": "\bCoolmate - Official Store",
+                         "logo": "f1e3bd8688dd9a60d16b10bfb3ec846f",
+                         "logo_pc": "63072c90d0ed6f1acdbc301f4e35f890",
+                         "shop_collection_id": 0,
+                         "ctime": 1624259246,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 127219155,
+                         "username": "5s_official",
+                         "shopid": 127217331,
+                         "shop_name": "5S OFFICIAL",
+                         "logo": "acd2e95692b860ed10cf1563dac61b2a",
+                         "logo_pc": "573699fb35b480bae467c33e237bef2b",
+                         "shop_collection_id": 0,
+                         "ctime": 1620981896,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 60299050,
+                         "username": "rough.vn",
+                         "shopid": 60297616,
+                         "shop_name": "ROUGH",
+                         "logo": "7d62bc3e93a63e1727647c57a86cc99c",
+                         "logo_pc": "5ae4a69caf8172da365898519b0d6b17",
+                         "shop_collection_id": 0,
+                         "ctime": 1620981895,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 111641040,
+                         "username": "patternvn",
+                         "shopid": 111639450,
+                         "shop_name": "Pattern",
+                         "logo": "9cf156e6be8b2d271baec076a2b61632",
+                         "logo_pc": "25f5e7c890cb12fe390cdebe899b1b9a",
+                         "shop_collection_id": 0,
+                         "ctime": 1638167443,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 317497276,
+                         "username": "levents.vn",
+                         "shopid": 317477677,
+                         "shop_name": "Levents .vn",
+                         "logo": "1bd2028c66898a72679baaf08443308e",
+                         "logo_pc": "f22e36c8526d9a2224cd8bdb4fc2fb60",
+                         "shop_collection_id": 0,
+                         "ctime": 1642500902,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 201778079,
+                         "username": "guzado.vn",
+                         "shopid": 201774917,
+                         "shop_name": "Guzado Official",
+                         "logo": "fce6bc0f53dbbc5d23aacb7527c196e3",
+                         "logo_pc": "21c730c26e8d3a6fab107a6ea75c057a",
+                         "shop_collection_id": 0,
+                         "ctime": 1629279875,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 59598192,
+                         "username": "thoitrangmando",
+                         "shopid": 59596762,
+                         "shop_name": "Th\u1eddi Trang MANDO",
+                         "logo": "16f083e03b33da7f4e0b634011a622d0",
+                         "logo_pc": "0671ab96c0cfa1d4dd8908033b5dd4dc",
+                         "shop_collection_id": 0,
+                         "ctime": 1620981896,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 168680671,
+                         "username": "tsimple_official",
+                         "shopid": 168678363,
+                         "shop_name": "TSIMPLE_OFFICIAL",
+                         "logo": "c0246d29b73f74cd4070cf96bc4c6ae0",
+                         "logo_pc": "29bed4380e5d22c19db3e70bdf852754",
+                         "shop_collection_id": 0,
+                         "ctime": 1620981895,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 92938999,
+                         "username": "owen.fashion",
+                         "shopid": 92937520,
+                         "shop_name": "Th\u1eddi trang nam Owen",
+                         "logo": "f07e72e61ab585a902aad4b530d9b88a",
+                         "logo_pc": "ddc75185f9fb776d74e7483c4bea3187",
+                         "shop_collection_id": 0,
+                         "ctime": 1620981895,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 68990240,
+                         "username": "thoitrangbiluxury",
+                         "shopid": 68988783,
+                         "shop_name": "Biluxury Official",
+                         "logo": "5e83c65f99d8cbbe6b2a24b764d4f19e",
+                         "logo_pc": "dcb6014c56264e43fc0ff2d1aac01152",
+                         "shop_collection_id": 0,
+                         "ctime": 1620981895,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 263716021,
+                         "username": "feaer_store",
+                         "shopid": 263713672,
+                         "shop_name": "FEAER STORE PREMIUM",
+                         "logo": "54f78ff51aee372d0fd404a428b780ad",
+                         "logo_pc": "37d7186a9f7478f13cfc5abfc8cac55c",
+                         "shop_collection_id": 0,
+                         "ctime": 1620981894,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 38040209,
+                         "username": "sukiyafashion.vn",
+                         "shopid": 38038824,
+                         "shop_name": "SUKIYA OFFICAL STORE",
+                         "logo": "f9d94b946174bfff9589cf5313bc8923",
+                         "logo_pc": "9446c460f1740c4d9406b74021372e86",
+                         "shop_collection_id": 0,
+                         "ctime": 1627279592,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 147231704,
+                         "username": "basispremiumvn",
+                         "shopid": 147229880,
+                         "shop_name": "Basis Premium Store ",
+                         "logo": "fd9597589b31f3aef6bf776e45f191e3",
+                         "logo_pc": "b676e79803c8c596afed806644deb2de",
+                         "shop_collection_id": 0,
+                         "ctime": 1620981895,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 277371451,
+                         "username": "4menstores",
+                         "shopid": 277366270,
+                         "shop_name": "4MEN_OFFICIAL ",
+                         "logo": "42701762f35693a8980e23ddba367340",
+                         "logo_pc": "57051eb3b9e4402159baa8ef4efb0750",
+                         "shop_collection_id": 0,
+                         "ctime": 1627973127,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 70678757,
+                         "username": "haidang.fashion",
+                         "shopid": 70677296,
+                         "shop_name": "haidang.fashion",
+                         "logo": "bfc8bc20d8ffc01c963db0442ab5dd56",
+                         "logo_pc": "185aa84b65234679750bc51ce74246da",
+                         "shop_collection_id": 0,
+                         "ctime": 1620981895,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 1621428,
+                         "username": "thoitrangnam4u",
+                         "shopid": 1620236,
+                         "shop_name": "4U SHOP",
+                         "logo": "3d7330323aa961006c741ad309b55a7b",
+                         "logo_pc": "fed4b97d2e56f102647bb6bccb086d02",
+                         "shop_collection_id": 0,
+                         "ctime": 1620981895,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 17894414,
+                         "username": "thoitrangeverest",
+                         "shopid": 17893078,
+                         "shop_name": "TH\u01a0\u0300I TRANG EVEREST",
+                         "logo": "340b651ffa688a781414cf8f4c7cb6dc",
+                         "logo_pc": "ee67615b2871ae017c69e87184c84102",
+                         "shop_collection_id": 0,
+                         "ctime": 1620981895,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 31524218,
+                         "username": "kojibavn",
+                         "shopid": 31522834,
+                         "shop_name": "Kojiba Vi\u1ec7t Nam",
+                         "logo": "e1dffbf70f8c1d1a86376c784dcbec53",
+                         "logo_pc": "4eb1fd88a044d66267f56fa26be01ea0",
+                         "shop_collection_id": 0,
+                         "ctime": 1620981895,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 16651297,
+                         "username": "hara.vn",
+                         "shopid": 16649961,
+                         "shop_name": "Balo HARAS VietNam",
+                         "logo": "6d610ff4b6c8bf69fc31b5c9b761232b",
+                         "logo_pc": "58655e4b2935d4e57044f285769511f0",
+                         "shop_collection_id": 0,
+                         "ctime": 1620981895,
+                         "brand_label": 0
+                    },
+                    {
+                         "userid": 296152160,
+                         "username": "sges.clothing",
+                         "shopid": 296132807,
+                         "shop_name": "SGES.Unisex",
+                         "logo": "907a1cd0bba0ed919aab913df90250dd",
+                         "logo_pc": "6dc92d4dc66896f8a9e05661c0d0ad17",
+                         "shop_collection_id": 0,
+                         "ctime": 1620981895,
+                         "brand_label": 0
+                    }
+               ]
+          }
+     }
+]

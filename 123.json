@@ -1,0 +1,37 @@
+{
+  "bff_meta": null,
+  "error": null,
+  "error_msg": null,
+  "data": {
+    "shopid": 947257509,
+    "userid": 947366279,
+    "last_active_time": 1678584978,
+    "vacation": false,
+    "place": "Huyện Hoài Đức, Hà Nội",
+    "account": {
+      "portrait": "sg-11134004-23030-dn6eddald7nvfe",
+      "username": "daisystoreee",
+      "status": 1
+    },
+    "is_shopee_verified": false,
+    "is_preferred_plus_seller": false,
+    "is_official_shop": false,
+    "shop_location": "Hà Nội",
+    "item_count": 56,
+    "rating_star": 4.792079,
+    "response_rate": 1,
+    "session_info": null,
+    "name": "Daisy Store18",
+    "ctime": 1675347262,
+    "response_time": 551,
+    "follower_count": 11018,
+    "show_official_shop_label": false,
+    "rating_bad": 3,
+    "rating_good": 290,
+    "rating_normal": 1,
+    "session_infos": null,
+    "show_shopee_mission": false,
+    "status": 1,
+    "is_individual_seller": null
+  }
+}

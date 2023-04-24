@@ -1,0 +1,326 @@
+[
+     {
+          "error": null,
+          "error_msg": null,
+          "data": {
+               "itemid": 20972490711,
+               "shopid": 947257509,
+               "userid": 0,
+               "price_max_before_discount": -1,
+               "has_lowest_price_guarantee": false,
+               "price_before_discount": 0,
+               "price_min_before_discount": -1,
+               "exclusive_price_info": null,
+               "hidden_price_display": null,
+               "price_min": 16685036698,
+               "price_max": 16685036698,
+               "price": 16685036698,
+               "stock": 4027,
+               "discount": null,
+               "historical_sold": 173,
+               "sold": 173,
+               "show_discount": 0,
+               "raw_discount": 0,
+               "min_purchase_limit": 0,
+               "overall_purchase_limit": {
+                    "order_max_purchase_limit": 0,
+                    "overall_purchase_limit": null,
+                    "item_overall_quota": null,
+                    "start_date": null,
+                    "end_date": null
+               },
+               "pack_size": null,
+               "is_live_streaming_price": null,
+               "show_free_return": null,
+               "name": "T\u00fai X\u00e1ch  N\u1eef Quai X\u00e1ch th\u1eddi trang   D\u1ef1 Ti\u1ec7c \u0110i L\u00e0m Daisy Store18 TX43",
+               "ctime": 1675559089,
+               "item_status": "normal",
+               "status": 1,
+               "condition": 1,
+               "catid": 100016,
+               "description": "T\u00fai \u0111eo ch\u00e9o n\u1eef  DAISY SHOP LU\u00d4N \u0110EM CH\u1ea4T L\u01af\u1ee2NG S\u1ea2N PH\u1ea8M V\u00c0 UY T\u00cdN L\u00caN H\u00c0NG \u0110\u1ea6U\n\nFollow Shop ngay \u0111\u1ec3 nh\u1eadn \u01b0u \u0111\u00e3i t\u1eeb shop nh\u00e9.Thanks\n\n\ud83d\udc5b S\u1ec9 v\u00e0 L\u1ebb t\u00fai x\u00e1ch to\u00e0n qu\u1ed1c \ud83d\udc5b\nG\u1eedi t\u1eb7ng qu\u00fd Kh\u00e1ch h\u00e0ng m\u00e3 t\u00fai x\u00e1ch \u0111eo ch\u00e9o trong b\u1ed9 s\u01b0u t\u1eadp m\u1edbi nh\u00e0 DAISY\n--------------------------------\n\ud83c\udf43 m\u00e0u s\u1eafc  ph\u00f9 h\u1ee3p cho c\u00e1c n\u00e0ng\n- Ch\u1ea5t li\u1ec7u: Da m\u1ec1m\n- T\u00fai  r\u1ea5t sang x\u1ecbn m\u1ecbn\n-------------------------------\n\ud83c\udf43 H\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng:\n+ S\u1ea3n ph\u1ea9m tr\u00e1ch \u0111\u1ec3 l\u00e2u d\u01b0\u1edbi \u00e1nh n\u1eafng tr\u1ef1c ti\u1ebfp \u1ea3nh h\u01b0\u1edfng \u0111\u1ebfn ch\u1ea5t l\u01b0\u1ee3ng c\u1ee7a da\n+ V\u1ec7 sinh b\u1eb1ng c\u00e1ch lau b\u1eb1ng kh\u0103n \u1ea9m tr\u00e1nh c\u00e1c ch\u1ea5t t\u1ea9y r\u1eeda.\n-------------------------------\n\ud83c\udf43 Ch\u00ednh s\u00e1ch \u0111\u1ed5i tr\u1ea3:\n+ H\u1ed7 tr\u1ee3 1 \u0111\u1ed5i 1 cho KH n\u1ebfu l\u1ed7i do nh\u00e0 s\u1ea3n xu\u1ea5t\n+ Gi\u1ea3m gi\u00e1 10% \u0111\u1ed1i v\u1edbi KH Follow shop\n-------------------------------\nM\u1ecdi th\u1eafc m\u1eafc vui l\u00f2ng xin li\u00ean h\u1ec7 v\u1edbi shop tr\u01b0\u1edbc khi \u0111\u00e1nh gi\u00e1 sao cho s\u1ea3n ph\u1ea9m.\nThanks For Choosing\n#tuixach #tuixachnu #tuixachnudep #tuixachtuixachnu #tuixachnudeocheo #tuixachnugiare #tuixachsangtrong #tuixachdutiec #tuixachmini #tuixachnuthoitrang #tuixachnucaocap #tuixachquangcha",
+               "is_mart": false,
+               "rich_text_description": null,
+               "show_shopee_verified_label": false,
+               "size_chart": "",
+               "reference_item_id": "",
+               "brand": null,
+               "item_rating": {
+                    "rating_star": 3.00351138320617,
+                    "rating_count": [
+                         5,
+                         0,
+                         0,
+                         0,
+                         0,
+                         5
+                    ]
+               },
+               "label_ids": null,
+               "attributes": [
+                    {
+                         "name": "Lo\u1ea1i b\u1ea3o h\u00e0nh",
+                         "value": "B\u1ea3o h\u00e0nh nh\u00e0 cung c\u1ea5p",
+                         "id": 100370,
+                         "is_timestamp": false,
+                         "brand_option": null,
+                         "val_id": null
+                    },
+                    {
+                         "name": "H\u1ea1n b\u1ea3o h\u00e0nh",
+                         "value": "6 th\u00e1ng",
+                         "id": 100121,
+                         "is_timestamp": false,
+                         "brand_option": null,
+                         "val_id": null
+                    },
+                    {
+                         "name": "Xu\u1ea5t x\u1ee9",
+                         "value": "Trung Qu\u1ed1c",
+                         "id": 100037,
+                         "is_timestamp": false,
+                         "brand_option": null,
+                         "val_id": null
+                    }
+               ],
+               "liked": false,
+               "liked_count": 70,
+               "cmt_count": 6,
+               "flag": 196608,
+               "shopee_verified": false,
+               "is_adult": false,
+               "is_preferred_plus_seller": false,
+               "tier_variations": [
+                    {
+                         "name": "m\u00e0u s\u1eafc",
+                         "options": [
+                              "\u0111en",
+                              "ghi"
+                         ],
+                         "images": null,
+                         "properties": [],
+                         "type": 0,
+                         "summed_stocks": null
+                    }
+               ],
+               "bundle_deal_id": 0,
+               "can_use_bundle_deal": false,
+               "size_chart_info": null,
+               "add_on_deal_info": null,
+               "bundle_deal_info": null,
+               "can_use_wholesale": false,
+               "wholesale_tier_list": [],
+               "is_group_buy_item": null,
+               "group_buy_info": null,
+               "welcome_package_type": 0,
+               "welcome_package_info": null,
+               "tax_code": null,
+               "invoice_option": null,
+               "complaint_policy": null,
+               "wp_eligibility": null,
+               "images": [
+                    "sg-11134201-23020-9le31kmop6mv02",
+                    "sg-11134201-23020-gzr15lmop6mv3d",
+                    "sg-11134201-23020-xccysnmop6mve2"
+               ],
+               "image": "sg-11134201-23020-9le31kmop6mv02",
+               "video_info_list": [
+                    {
+                         "video_id": "c5d923fb7d95f09a6f8975e64329dc67",
+                         "thumb_url": "8866202a0805fef9e335d65cb8de44d4",
+                         "duration": 42,
+                         "version": 2,
+                         "vid": "sg_3d748391-32ef-4f69-becd-8ddc9541bba2_000334",
+                         "formats": [
+                              {
+                                   "format": 1600003,
+                                   "defn": "V480P",
+                                   "profile": "MP4",
+                                   "path": "api/v4/11110105/mms/sg_3d748391-32ef-4f69-becd-8ddc9541bba2_000334.16000031675558992.mp4",
+                                   "url": "",
+                                   "width": 480,
+                                   "height": 640
+                              },
+                              {
+                                   "format": 1600010,
+                                   "defn": "V540P",
+                                   "profile": "MP4",
+                                   "path": "api/v4/11110105/mms/sg_3d748391-32ef-4f69-becd-8ddc9541bba2_000334.16000101675558992.mp4",
+                                   "url": "",
+                                   "width": 540,
+                                   "height": 720
+                              },
+                              {
+                                   "format": 1600008,
+                                   "defn": "V720P",
+                                   "profile": "MP4",
+                                   "path": "api/v4/11110105/mms/sg_3d748391-32ef-4f69-becd-8ddc9541bba2_000334.16000081675558992.mp4",
+                                   "url": "",
+                                   "width": 720,
+                                   "height": 960
+                              }
+                         ],
+                         "default_format": {
+                              "format": 600001,
+                              "defn": "ORI",
+                              "profile": "MP4",
+                              "path": "",
+                              "url": "http://play-ws.vod.shopee.com/api/v4/11110105/mms/sg_3d748391-32ef-4f69-becd-8ddc9541bba2_000334.ori.mp4",
+                              "width": 1128,
+                              "height": 1504
+                         },
+                         "mms_data": "{\"vid\":\"sg_3d748391-32ef-4f69-becd-8ddc9541bba2_000334\",\"biz\":107,\"duration\":42140,\"create_time\":1675558991,\"update_time\":1675558998,\"serviceID\":2,\"cover\":\"https://img.ws.mms.shopee.sg/sg-11110105-23020-bzxuyu6op6mv52\",\"formats\":[{\"format\":1600003,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110105/mms/sg_3d748391-32ef-4f69-becd-8ddc9541bba2_000334.16000031675558992.mp4\",\"width\":480,\"height\":640,\"bitrate\":384598,\"abitrate\":48142,\"duration\":42080,\"size\":2312593,\"fps\":25.02376,\"update_time\":1675559011},{\"format\":1600010,\"defn\":\"V540P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110105/mms/sg_3d748391-32ef-4f69-becd-8ddc9541bba2_000334.16000101675558992.mp4\",\"width\":540,\"height\":720,\"bitrate\":458699,\"abitrate\":48142,\"duration\":42080,\"size\":2702366,\"fps\":25.02376,\"update_time\":1675559008},{\"format\":1600008,\"defn\":\"V720P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110105/mms/sg_3d748391-32ef-4f69-becd-8ddc9541bba2_000334.16000081675558992.mp4\",\"width\":720,\"height\":960,\"bitrate\":705723,\"abitrate\":128127,\"duration\":42080,\"size\":4421912,\"fps\":25.02376,\"update_time\":1675559018}],\"extend_formats\":{\"H265\":[{\"format\":1600309,\"defn\":\"V720P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110107/mms/sg_3d748391-32ef-4f69-becd-8ddc9541bba2_000334.16003091676561680.mp4\",\"width\":720,\"height\":960,\"bitrate\":573752,\"abitrate\":128131,\"duration\":42080,\"size\":3730557,\"fps\":25.02376,\"update_time\":1676561738}]},\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110105/mms/sg_3d748391-32ef-4f69-becd-8ddc9541bba2_000334.ori.mp4\",\"width\":1128,\"height\":1504,\"bitrate\":4978534,\"abitrate\":128008,\"duration\":42140,\"size\":26928553,\"fps\":17.75,\"update_time\":1675558994}}"
+                    }
+               ],
+               "item_type": 0,
+               "long_images": null,
+               "clip_info": null,
+               "is_official_shop": false,
+               "show_official_shop_label_in_title": false,
+               "shop_location": "",
+               "coin_earn_label": null,
+               "cb_option": 0,
+               "is_pre_order": false,
+               "estimated_days": 2,
+               "badge_icon_type": 0,
+               "show_free_shipping": false,
+               "shipping_icon_type": 0,
+               "cod_flag": 0,
+               "is_service_by_shopee": false,
+               "show_original_guarantee": false,
+               "categories": [
+                    {
+                         "catid": 100016,
+                         "display_name": "T\u00fai V\u00ed N\u1eef",
+                         "no_sub": false,
+                         "is_default_subcat": false
+                    },
+                    {
+                         "catid": 100094,
+                         "display_name": "T\u00fai quai x\u00e1ch",
+                         "no_sub": true,
+                         "is_default_subcat": false
+                    }
+               ],
+               "other_stock": 4027,
+               "item_has_post": false,
+               "discount_stock": 0,
+               "current_promotion_has_reserve_stock": false,
+               "current_promotion_reserved_stock": 0,
+               "normal_stock": 4027,
+               "brand_id": 0,
+               "is_alcohol_product": false,
+               "show_recycling_info": false,
+               "coin_info": {
+                    "spend_cash_unit": 100000,
+                    "coin_earn_items": []
+               },
+               "models": [
+                    {
+                         "itemid": 20972490711,
+                         "status": 1,
+                         "current_promotion_reserved_stock": 0,
+                         "name": "ghi",
+                         "promotionid": 0,
+                         "price": 16685036698,
+                         "price_stocks": [
+                              {
+                                   "allocated_stock": 0,
+                                   "stock_breakdown_by_location": null
+                              }
+                         ],
+                         "current_promotion_has_reserve_stock": false,
+                         "normal_stock": 1923,
+                         "extinfo": {
+                              "tier_index": [
+                                   1
+                              ],
+                              "group_buy_info": null,
+                              "is_pre_order": false,
+                              "estimated_days": 2
+                         },
+                         "price_before_discount": 0,
+                         "modelid": 193794904447,
+                         "stock": 1923,
+                         "has_gimmick_tag": false,
+                         "key_measurement": null
+                    },
+                    {
+                         "itemid": 20972490711,
+                         "status": 1,
+                         "current_promotion_reserved_stock": 0,
+                         "name": "\u0111en",
+                         "promotionid": 0,
+                         "price": 16685036698,
+                         "price_stocks": [
+                              {
+                                   "allocated_stock": 0,
+                                   "stock_breakdown_by_location": null
+                              }
+                         ],
+                         "current_promotion_has_reserve_stock": false,
+                         "normal_stock": 2104,
+                         "extinfo": {
+                              "tier_index": [
+                                   0
+                              ],
+                              "group_buy_info": null,
+                              "is_pre_order": false,
+                              "estimated_days": 2
+                         },
+                         "price_before_discount": 0,
+                         "modelid": 193794904446,
+                         "stock": 2104,
+                         "has_gimmick_tag": false,
+                         "key_measurement": null
+                    }
+               ],
+               "spl_info": {
+                    "installment_info": null,
+                    "user_credit_info": null,
+                    "channel_id": null,
+                    "show_spl": false,
+                    "show_spl_lite": false
+               },
+               "preview_info": null,
+               "fe_categories": [
+                    {
+                         "catid": 11035761,
+                         "display_name": "T\u00fai V\u00ed N\u1eef",
+                         "no_sub": false,
+                         "is_default_subcat": false
+                    },
+                    {
+                         "catid": 11035771,
+                         "display_name": "T\u00fai Quai X\u00e1ch",
+                         "no_sub": true,
+                         "is_default_subcat": false
+                    }
+               ],
+               "presale_info": null,
+               "show_best_price_guarantee": false,
+               "item_has_video": false,
+               "item_has_size_recommendation": false,
+               "is_cc_installment_payment_eligible": false,
+               "is_non_cc_installment_payment_eligible": false,
+               "flash_sale": null,
+               "upcoming_flash_sale": null,
+               "deep_discount": null,
+               "has_low_fulfillment_rate": false,
+               "is_partial_fulfilled": false,
+               "makeups": null,
+               "shop_vouchers": [],
+               "credit_insurance_data": {
+                    "insurance_products": []
+               },
+               "global_sold": null,
+               "is_infant_milk_formula_product": false,
+               "should_show_amp_tag": true,
+               "sorted_variation_image_index_list": null,
+               "lowest_past_price": null,
+               "is_prescription_item": false,
+               "should_move_ratings_above": false
+          },
+          "is_indexable": true
+     }
+]
