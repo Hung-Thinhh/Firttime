@@ -1,0 +1,531 @@
+[
+     {
+          "bff_meta": null,
+          "error": 0,
+          "error_msg": null,
+          "data": {
+               "update_time": 1676538544,
+               "version": "1676539444",
+               "sections": [
+                    {
+                         "total": 31,
+                         "key": "best_selling_sec",
+                         "index": [
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_12963",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_156",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_139",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_110",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_28",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_10",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_769",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_57",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_1272",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_198",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_26",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_3411",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_339",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_3788",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_40",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_190",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_553",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_157",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_695",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              },
+                              {
+                                   "data_type": "top_product",
+                                   "key": "VN_BITL0_115",
+                                   "filtered": null,
+                                   "filtered_dunit": null
+                              }
+                         ],
+                         "data": {
+                              "item": null,
+                              "keyword": null,
+                              "ads": null,
+                              "top_product": [
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.275921},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 62039,
+                                        "data_type": "top_product",
+                                        "name": "\u00c1o Thun Local Brand",
+                                        "label": "VN_BITL0_12963:top_sold",
+                                        "key": "VN_BITL0_12963",
+                                        "images": [
+                                             "63d7bef820b88a57b5ae4713eb2d20d7"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_12963:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.258370},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 47652,
+                                        "data_type": "top_product",
+                                        "name": "Bao Cao Su",
+                                        "label": "VN_BITL0_156:top_sold",
+                                        "key": "VN_BITL0_156",
+                                        "images": [
+                                             "2c9dab61383d096c78823f9f8b5c3f82",
+                                             "5eb04768e43afb6adabcaee8ba0fd736"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_156:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.239774},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 46748,
+                                        "data_type": "top_product",
+                                        "name": "\u00c1o L\u00f3t N\u1eef Kh\u00f4ng G\u1ecdng",
+                                        "label": "VN_BITL0_139:top_sold",
+                                        "key": "VN_BITL0_139",
+                                        "images": [
+                                             "19b0f1be023595efdd7e996269a220ee",
+                                             "3e111293c5d40d8dea2cd1c7fe3c95a6",
+                                             "d7be1664781fc429eaa8c8507efaedac"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_139:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.229365},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 53719,
+                                        "data_type": "top_product",
+                                        "name": "Th\u1eaft L\u01b0ng Nam",
+                                        "label": "VN_BITL0_110:top_sold",
+                                        "key": "VN_BITL0_110",
+                                        "images": [
+                                             "ad15aa37523b5de343913cb79952957b",
+                                             "faab565f114c04a26cfa5a83f89a46e2",
+                                             "8d70fb7b8d8462960bd8b5db7c915eb3"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_110:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.221129},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 55423,
+                                        "data_type": "top_product",
+                                        "name": "Qu\u1ea7n \u00c2u Nam",
+                                        "label": "VN_BITL0_28:top_sold",
+                                        "key": "VN_BITL0_28",
+                                        "images": [
+                                             "f661850cd92416d796df93ffbfd824d4",
+                                             "147755f1e6168a19b320e81e38597fef",
+                                             "3ef958a8a6786248b917f07a87921d9c"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_28:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.210970},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 52162,
+                                        "data_type": "top_product",
+                                        "name": "B\u1ed9 Ch\u0103n Ga G\u1ed1i Cotton",
+                                        "label": "VN_BITL0_10:top_sold",
+                                        "key": "VN_BITL0_10",
+                                        "images": [
+                                             "309e98d0c002c62b867a00bc639bdbae",
+                                             "7b9eb506a4a86c68e82494e7c7d1ffcf",
+                                             "d5502827582f7fb468bc70f4992756ca"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_10:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.206635},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 47326,
+                                        "data_type": "top_product",
+                                        "name": "\u00c1o Thun Polo Nam Ng\u1eafn Tay",
+                                        "label": "VN_BITL0_769:top_sold",
+                                        "key": "VN_BITL0_769",
+                                        "images": [
+                                             "c302abe3c6a17063d1271f46ce542210",
+                                             "3efaf1c0506230e6d812f8d524b20f47",
+                                             "b8acc5877b10e57cce70fe555d5cfe19"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_769:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.203922},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 69197,
+                                        "data_type": "top_product",
+                                        "name": "Qu\u1ea7n L\u00f3t Nam Co D\u00e3n",
+                                        "label": "VN_BITL0_57:top_sold",
+                                        "key": "VN_BITL0_57",
+                                        "images": [
+                                             "db3fb9563d3779ed850b7b735aba8c09",
+                                             "aa4177a5d563c5c5b9bc4536890ccc8e",
+                                             "1a31855c2e10e268a86ac8bfdb420873"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_57:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.200014},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 49344,
+                                        "data_type": "top_product",
+                                        "name": "H\u1ed9p V\u1ea3i \u0110\u1ef1ng \u0110\u1ed3 \u0110a N\u0103ng",
+                                        "label": "VN_BITL0_1272:top_sold",
+                                        "key": "VN_BITL0_1272",
+                                        "images": [
+                                             "ba6efd5b95338b1c03bac89c59fd6b36",
+                                             "225a7de0978b0e7a02e7ce96cb063286",
+                                             "58bb27e7b47e6d71062526766ad013ac"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_1272:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.198598},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 60101,
+                                        "data_type": "top_product",
+                                        "name": "M\u0169 B\u1ea3o Hi\u1ec3m N\u1eeda \u0110\u1ea7u",
+                                        "label": "VN_BITL0_198:top_sold",
+                                        "key": "VN_BITL0_198",
+                                        "images": [
+                                             "1050e8f4402f2e698d364c6cf9f6da48",
+                                             "d61c0bd6517be0b1326b71598a24c2ec",
+                                             "ae4c974b71b1d457b3c719b07f642e22"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_198:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.197085},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 90412,
+                                        "data_type": "top_product",
+                                        "name": "Qu\u1ea7n \u1ed0ng R\u1ed9ng N\u1eef",
+                                        "label": "VN_BITL0_26:top_sold",
+                                        "key": "VN_BITL0_26",
+                                        "images": [
+                                             "9ec433bca2d7e0f8f6fc2ce1c5097882",
+                                             "6431a52274771497ff3cea935d2812b9",
+                                             "46f4a1c42ce6c897c179817f956bea8f"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_26:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.192024},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 57172,
+                                        "data_type": "top_product",
+                                        "name": "X\u1ecbt Th\u01a1m Mi\u1ec7ng",
+                                        "label": "VN_BITL0_3411:top_sold",
+                                        "key": "VN_BITL0_3411",
+                                        "images": [
+                                             "a1c3ce5738960e8301eca6131df9fbfb",
+                                             "0acb6b2c3bdc48af0dfb8925fcb55034",
+                                             "caeea53effdc813084879d6c61bd9582"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_3411:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.188127},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 93125,
+                                        "data_type": "top_product",
+                                        "name": "Son Kem L\u00ec",
+                                        "label": "VN_BITL0_339:top_sold",
+                                        "key": "VN_BITL0_339",
+                                        "images": [
+                                             "c8169887b60e20a161d0288e6f9a193e",
+                                             "ee2b1da4a8393468cfdbae245f39f62c",
+                                             "0e775944902a412f1b3d5977d1ca1e12"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_339:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.184740},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 61060,
+                                        "data_type": "top_product",
+                                        "name": "B\u00fat M\u1ef1c Gel",
+                                        "label": "VN_BITL0_3788:top_sold",
+                                        "key": "VN_BITL0_3788",
+                                        "images": [
+                                             "ce3aedb12a4bdd13b7ebb1988b171eef",
+                                             "ea3c6a73cbd32bddb8323c14b837b4de",
+                                             "7a13f189b4b245f3bc72b89957688ad2"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_3788:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.184105},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 50065,
+                                        "data_type": "top_product",
+                                        "name": "Qu\u1ea7n \u1ed0ng Loe",
+                                        "label": "VN_BITL0_40:top_sold",
+                                        "key": "VN_BITL0_40",
+                                        "images": [
+                                             "333e69ee8a9fdef48dd8ef0bebb554b2",
+                                             "17f04707092c2d0a70a8e03ea7b95304",
+                                             "60ddf96fc3e43136f22d63e60575a951"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_40:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.174108},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 46476,
+                                        "data_type": "top_product",
+                                        "name": "V\u00ed N\u1eef Mini C\u1ea7m Tay",
+                                        "label": "VN_BITL0_190:top_sold",
+                                        "key": "VN_BITL0_190",
+                                        "images": [
+                                             "4c079b7eabeae86dc050664fe1a20b41",
+                                             "34ef7fbc3e47d7e92e83d235bd594412",
+                                             "f4b585363de56cab042ddda3aa77e7a4"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_190:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.172726},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 60695,
+                                        "data_type": "top_product",
+                                        "name": "K\u00ednh C\u01b0\u1eddng L\u1ef1c Kingkong",
+                                        "label": "VN_BITL0_553:top_sold",
+                                        "key": "VN_BITL0_553",
+                                        "images": [
+                                             "14a2ac0bd69dc0f9c54623d563ee4d5e",
+                                             "6a4009578f33ab71905b149b280a8a52",
+                                             "0fdcf06ccfb4ef54fe2428ff6420f20d"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_553:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.171201},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 212824,
+                                        "data_type": "top_product",
+                                        "name": "\u1ed0p L\u01b0ng Iphone",
+                                        "label": "VN_BITL0_157:top_sold",
+                                        "key": "VN_BITL0_157",
+                                        "images": [
+                                             "1c23ccb76031614584cbdd977e31bd7a",
+                                             "6d1416daa515aaf1a3c1b6c5fc47e07b"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_157:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.169236},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 57699,
+                                        "data_type": "top_product",
+                                        "name": "\u0110\u1ed3 Ch\u01a1i Lego",
+                                        "label": "VN_BITL0_695:top_sold",
+                                        "key": "VN_BITL0_695",
+                                        "images": [
+                                             "6c5aca08353bc35eb864ba2f312de3bf",
+                                             "d2ba96639d718ff3ca9926122fb3ef72",
+                                             "ee5919981ebeb6240fac954c997407cd"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_695:top_sold",
+                                        "list": null
+                                   },
+                                   {
+                                        "info": "AB:804_6622_28806,REQID:1f8a1b84f4cd8c5df76e174b6efd0a00,BND:top_products_homepage,BNDOPT:top_products_homepage,QUE:KnodePopStrategy_instance_tspps,QUES:KnodePopStrategy_instance_tspps,RNK:knodev3_tp_fusion_mmoe_ord_onhp@VN_929094:{SCORE:0.158279},SECKEY:best_selling_sec,USR:default,LC:1|1,FS:0",
+                                        "count": 113952,
+                                        "data_type": "top_product",
+                                        "name": "Qua\u0302\u0300n L\u00f3t Nu\u031b\u0303 Cotton",
+                                        "label": "VN_BITL0_115:top_sold",
+                                        "key": "VN_BITL0_115",
+                                        "images": [
+                                             "e561d5b5de63d35f66e52f172b0821d6",
+                                             "8875affa67a942d66628792657fe8b18",
+                                             "c7f0ad641dd94b3c56769320c9f1556e"
+                                        ],
+                                        "sorttype": 1,
+                                        "best_price": 0,
+                                        "display_text": "B\u00e1n Ch\u1ea1y Nh\u1ea5t",
+                                        "knodeid": "VN_BITL0_115:top_sold",
+                                        "list": null
+                                   }
+                              ],
+                              "collection": null,
+                              "item_lite": null,
+                              "voucher": null,
+                              "voucher_detail": null,
+                              "l1cat": null,
+                              "collection_lite": null,
+                              "l2cat": null,
+                              "shop": null,
+                              "shop_lite": null,
+                              "shopcat": null,
+                              "feed": null,
+                              "feed_tab": null,
+                              "stream": null,
+                              "promotion": null,
+                              "knode": null,
+                              "food_item": null,
+                              "l3cat": null,
+                              "video": null
+                         },
+                         "item_card_type": "",
+                         "section_meta_data": null,
+                         "has_more": true,
+                         "pagination_type": "batch"
+                    }
+               ],
+               "expire": 1676539444,
+               "tab_meta_data": null,
+               "misc_info": null,
+               "realtime_meta_data": null,
+               "user_meta_data": {
+                    "is_new_user": true
+               }
+          }
+     }
+]

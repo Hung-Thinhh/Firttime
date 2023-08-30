@@ -32,6 +32,8 @@ for i in range(1, 3):
     item = []
     if response.status_code == 200:
         print('request success!!!')
+        data = response.json()
+        print(data)
         for a, record in enumerate(response.json().get('data').get('sections')[0].get('data').get('item')):
             item.append({ 'item{}'.format(a): record})
     product_item.append({'page{}'.format(i):item})        

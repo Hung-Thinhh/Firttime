@@ -1,0 +1,11 @@
+1.   khi từ page 2 trỏ lại page 1 thì phần page-controller không tự chuyển lại thành 1 
+(Các trang có nhiều page)
+2.   khi lựa chọn mua hàng nếu sản phẩm có 1 mục chọn thì sẽ báo lỗi khi bấm thêm vỏ hàng do YÊU CẦU PHẢI CHỌN CẢ 2 OPTION
+    Các lỗi về số lượng 
+    - Nếu bình luận k có hình ,
+    - ảnh sản phẩm ít,
+    -Số lượng bình luận ít hơn,
+    ...
+(Trang item)
+3.    Các lựa chọn chưa lấy api dc
+

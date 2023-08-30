@@ -1,0 +1,60 @@
+:root
+{
+    --primary-color:#ee4d2d;
+    --primary-color-rgba:rgb(238, 77, 45);
+    --black-color:#000;
+    --text-color:#333;
+    --white-color:white;
+    --header-navbar-height:120px;
+    --navbar-height:38px;
+    --header-search-height:calc(var(--header-navbar-height)var(--navbar-height));
+}
+*{
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*animation*/
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/* modal layout */
+.modal{
+    position: fixed;
+    top:0;
+    right:0;
+    bottom: 0;
+    left:0;
+    
+}
+
+.modal__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.modal__body{
+    background-color: var(--white-color);
+    margin: auto;
+    position: relative;;
+    z-index: 1;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+}

@@ -1,0 +1,339 @@
+.header__logo {
+    width: 270px;
+}
+
+.beautifull {
+    background-image: repeating-linear-gradient(45deg, #6fa6d6, #6fa6d6 33px, transparent 0, transparent 41px, #f18d9b 0, #f18d9b 74px, transparent 0, transparent 82px);
+    height: 3px;
+    width: 100%;
+    background-position-x: -30px;
+    background-size: 116px 3px;
+}
+
+.Delivery_Address {
+    padding: 30px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.Delivery_Address_header {
+    font-size: 18px;
+    color: #ee4d2d;
+}
+
+.Delivery_Address_header i {
+    padding-right: 5px;
+}
+
+.Delivery_Address_main {
+    display: flex;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.Delivery_Address_main_Name,
+.Delivery_Address_main_Phone {
+    font-weight: 600;
+}
+
+.Delivery_Address_main_Name {
+    padding-right: 5px;
+}
+
+.Delivery_Address_main_Phone {
+    padding-right: 20px;
+}
+
+.Delivery_Address_main_address {
+    padding-right: 100px;
+}
+
+.Delivery_Address_main a {
+    font-size: 14px;
+    color: #4080ee;
+    text-decoration: none;
+}
+
+.note {
+    background-color: #fff;
+    margin-bottom: -12px;
+    font-size: 14px;
+    color: #bbb;
+    text-transform: none;
+}
+
+.note_item2 {
+    font-size: 18px;
+    font-weight: 600px;
+    width: 77.47949%;
+}
+
+.note_item3 {
+    width: 12%;
+}
+
+.note_item4 {
+    width: 24.4265%;
+}
+
+.cart_list_item_main_info {
+    width: 41%;
+}
+
+.cart_list_item_main_classify {
+    width: 18.24138%;
+}
+
+.cart_list_item_main_price {
+    width: 10.88022%;
+}
+
+.cart_list_item_main_total_operation {
+    width: 9.0417%;
+}
+
+.cart_list_item_main_total_price {
+    width: 17.43557%;
+    justify-content: flex-end;
+    color: #222;
+}
+
+.image_info {
+    width: 40px;
+    height: 40px;
+}
+
+.cart_list_item_main_info_title {
+    justify-content: center;
+}
+
+.cart_list_item_ship {
+    /* display: flex; */
+    /* padding: 30px; */
+    background-color: #fafdff;
+    margin-top: 2px;
+    align-items: center;
+}
+
+.cart_list_item_ship_top {
+    display: flex;
+}
+
+.cart_list_item_mess {
+    display: flex;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    /* height: 100px; */
+    padding: 15px 30px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cart_list_item_input {
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 2px 0 0 rgb(0 0 0 / 2%);
+    border-radius: 2px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, .14);
+    margin-left: 15px;
+    width: 345px;
+    background-color: #fff;
+}
+
+.cart_list_item_input input {
+    background-color: transparent;
+    min-width: 0;
+    color: #222;
+    border: 0;
+    outline: none;
+    padding: 4px 12px;
+    /* width: 100%; */
+    height: 40px;
+    width: 345px;
+}
+
+.cart_list_item_ship_title {
+    font-size: 14px;
+    color: #00bfa5;
+    margin-left: 20px;
+}
+
+.cart_list_item_ship_info {
+    display: flex;
+    padding-top: 15px;
+}
+
+.cart_list_item_ship_name {
+    margin-left: 20px;
+    font-size: 14px;
+
+}
+
+.cart_list_item_ship_name_main {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+}
+
+.cart_list_item_ship_time {
+    font-size: 13px;
+    color: #888;
+    padding-top: 5px;
+}
+
+.cart_list_item_ship_change {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #05a;
+    margin-left: 20px;
+}
+
+.cart_list_item_ship_price {
+    font-size: 14px;
+    margin-left: 125px;
+}
+
+.cart_list_item_ship_bottom {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    padding: 20px 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cart_list_item_ship_bottom_title {
+    margin-right: 20px;
+    color: #929292;
+}
+
+.cart_list_item_ship_bottom_price {
+    font-size: 20px;
+    color: #ee4d2d;
+}
+
+.cart_synthetic_voucherShopee {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.cart_synthetic_voucherShopee_name svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.cart_synthetic_voucherShopee_name {
+    font-size: 18px;
+    color: rgba(0, 0, 0, .8);
+}
+
+.cart_synthetic_voucherShopee_note {
+    font-size: 18px;
+    color: #ee4d2d;
+    display: none;
+}
+
+.cart_synthetic_Shopee_Xu,
+.cart_Payment_methods {
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.Shopee_Xu_title {
+    font-size: 18px;
+    width: 23%;
+}
+
+.your_Xu {
+    width: 140.7%;
+}
+
+.down_Xu {
+    width: 9%;
+}
+
+.note_check {
+    width: 4%;
+}
+
+.cart_Payment_methods_title {
+    font-size: 18px;
+}
+
+.cart_Payment_methods {
+    margin-top: 30px;
+}
+
+.cart_Payment_methods_name {
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+}
+
+.cart_sum_info {
+    background: #fffefb;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%);
+    border-top: 1px solid #f1f0ed;
+    display: grid;
+    grid-template-columns: 1fr -webkit-max-content -webkit-max-content;
+    grid-template-columns: 1fr max-content max-content;
+    grid-template-rows: auto;
+    grid-column-gap: 10px;
+    padding: 30px;
+    font-size: 14px;
+}
+
+.cart_sum_info_title {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.cart_sum_info_title,
+.cart_sum_info_name {
+    font-size: 14px;
+    color: rgba(0, 0, 0, .54);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.cart_sum_info_name {
+    justify-content: flex-end;
+}
+
+.cart_sum_info_name:last-child {
+    font-size: 28px;
+    color: #ee4d2d;
+    justify-content: flex-end;
+}
+
+.cart_synthetic {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    margin-top: 1px;
+    position: relative;
+}
+
+.buy_cart_title {
+    font-size: 14px;
+    color: rgba(0, 0, 0, .54);
+}
+
+.buy_cart a {
+    font-size: 14px;
+    color: #05a;
+    text-decoration: none;
+    margin-left: 3px;
+}

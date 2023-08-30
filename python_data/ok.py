@@ -11,7 +11,7 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
     'Accept': '*/*',
     'Accept-Language': 'vi,en-US;q=0.9,en;q=0.8',
-    'Referer': 'https://shopee.vn/daily_discover?pageNumber=5',
+    'Referer': 'https://shopee.vn/daily_discover?pageNumber=2',
     'x-requested-with': 'XMLHttpRequest',
     # 'Connection': 'keep-alive',
     # 'TE': 'Trailers',
@@ -31,15 +31,19 @@ product_id = []
 
 for i in range(0, 60 , 60):
     a+=1
-    response = requests.get('https://shopee.vn/api/v4/recommend/recommend?bundle=daily_discover_main&item_card=2&limit=60&offset=240&view_session_id=e563ee40-5c37-4516-9dd2-3a30dfbabad6',params=params,headers= headers)
+    response = requests.get('https://shopee.vn/api/v4/recommend/recommend?bundle=daily_discover_main&item_card=3&limit=60&offset=60&view_session_id=212a363e-fe7a-4aa5-bc12-99a89c73b3e4')
     if response.status_code == 200:
         print('request success!!!')
-        
+        print(response)
         product_item=response.json()
+    else: 
+        print('request error')
     time.sleep(random.randrange(3, 10))
+    
 
 
-with open('test1.json', 'w') as file:
-    file.write(json.dumps(product_item, indent=5))
+
+# with open('test1.json', 'w') as file:
+#     file.write(json.dumps(product_item, indent=5))
 # df = pd.DataFrame(product_id)
 # df.to_csv('product_id_recomment_ncds.csv', index=False)

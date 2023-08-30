@@ -1,0 +1,168 @@
+[
+     {
+          "bff_meta": null,
+          "error": null,
+          "error_msg": null,
+          "data": {
+               "queries": [
+                    {
+                         "id": null,
+                         "text": "D\u00e9p",
+                         "pic": [
+                              "sg-11134201-22110-8i3uwvh9pfjvc5",
+                              "sg-11134201-22120-8ia2miw2vnkv6f",
+                              "af09e098a37cd680feada73cf32bd970"
+                         ],
+                         "count": 3419,
+                         "tracking": "{\"ABTEST_SIGNATURE\":\"FW26\",\"QUEUE\":\"HOTKW\",\"RANK_SCORE\":0.00188407301902771,\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+                         "search_info": "{\"ABTEST_SIGNATURE\":\"FW26\",\"QUEUE\":\"HOTKW\",\"RANK_SCORE\":0.00188407301902771,\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+                         "bff_info": "{}",
+                         "icon_code": 0,
+                         "item_ids": [
+                              22803560065,
+                              22009008877,
+                              17214120280
+                         ]
+                    },
+                    {
+                         "id": null,
+                         "text": "\u00c1o Kho\u00e1c",
+                         "pic": [
+                              "1aa10395043391473706a0991c58b875",
+                              "58b15a3eef18d0b0973c69c9ac067d43",
+                              "sg-11134201-22090-wlgm6l8xfthva4"
+                         ],
+                         "count": 3286,
+                         "tracking": "{\"ABTEST_SIGNATURE\":\"FW26\",\"QUEUE\":\"HOTKW\",\"RANK_SCORE\":0.0015456974506378174,\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+                         "search_info": "{\"ABTEST_SIGNATURE\":\"FW26\",\"QUEUE\":\"HOTKW\",\"RANK_SCORE\":0.0015456974506378174,\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+                         "bff_info": "{}",
+                         "icon_code": 0,
+                         "item_ids": [
+                              20759259656,
+                              21746954332,
+                              17886063542
+                         ]
+                    },
+                    {
+                         "id": null,
+                         "text": "\u00c1o Croptop",
+                         "pic": [
+                              "cae1ba30c4e85c2722db09497b799e4f",
+                              "faefa1b6238fd31dcfc7d44bf5c3ae9b",
+                              "26c451e32f540c1b3e1bdd146426af82"
+                         ],
+                         "count": 10600,
+                         "tracking": "{\"ABTEST_SIGNATURE\":\"FW26\",\"QUEUE\":\"HOTKW\",\"RANK_SCORE\":0.001468360424041748,\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+                         "search_info": "{\"ABTEST_SIGNATURE\":\"FW26\",\"QUEUE\":\"HOTKW\",\"RANK_SCORE\":0.001468360424041748,\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+                         "bff_info": "{}",
+                         "icon_code": 0,
+                         "item_ids": [
+                              9458202958,
+                              11195647727,
+                              14292221633
+                         ]
+                    },
+                    {
+                         "id": null,
+                         "text": "\u1ed0p iPhone",
+                         "pic": [
+                              "5e493ba239002117277fb2539a331450",
+                              "c52f1a822f47e25077c89284d0ef39d6",
+                              "39e24e3144f8473b55dd09e10f08bcff"
+                         ],
+                         "count": 4579,
+                         "tracking": "{\"ABTEST_SIGNATURE\":\"FW26\",\"QUEUE\":\"HOTKW\",\"RANK_SCORE\":0.0015716850757598877,\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+                         "search_info": "{\"ABTEST_SIGNATURE\":\"FW26\",\"QUEUE\":\"HOTKW\",\"RANK_SCORE\":0.0015716850757598877,\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+                         "bff_info": "{}",
+                         "icon_code": 0,
+                         "item_ids": [
+                              19538255070,
+                              20340111107,
+                              19823910260
+                         ]
+                    },
+                    {
+                         "id": null,
+                         "text": "\u00c1o Ph\u00f4ng",
+                         "pic": [
+                              "f3b6ad464b65a092e6f826878f60ac0c",
+                              "d94ac99163d69ab98fd4a282a39bc838",
+                              "321978991305d3f80cfa18269ea5e33a"
+                         ],
+                         "count": 5443,
+                         "tracking": "{\"ABTEST_SIGNATURE\":\"FW26\",\"QUEUE\":\"HOTKW\",\"RANK_SCORE\":0.001705080270767212,\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+                         "search_info": "{\"ABTEST_SIGNATURE\":\"FW26\",\"QUEUE\":\"HOTKW\",\"RANK_SCORE\":0.001705080270767212,\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+                         "bff_info": "{}",
+                         "icon_code": 0,
+                         "item_ids": [
+                              18531023822,
+                              3789576526,
+                              14990885166
+                         ]
+                    },
+                    {
+                         "id": null,
+                         "text": "LEGO",
+                         "pic": [
+                              "sg-11134201-22100-tybgu8aqeriv21",
+                              "e02aa459adffb5f4b246eca25eadd439",
+                              "sg-11134201-22110-9vt6j1az60jv8f"
+                         ],
+                         "count": 3175,
+                         "tracking": "{\"ABTEST_SIGNATURE\":\"FW26\",\"QUEUE\":\"HOTKW\",\"RANK_SCORE\":0.0014424920082092285,\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+                         "search_info": "{\"ABTEST_SIGNATURE\":\"FW26\",\"QUEUE\":\"HOTKW\",\"RANK_SCORE\":0.0014424920082092285,\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+                         "bff_info": "{}",
+                         "icon_code": 0,
+                         "item_ids": [
+                              20241464692,
+                              21952689233,
+                              22407428868
+                         ]
+                    },
+                    {
+                         "id": null,
+                         "text": "T\u00fai X\u00e1ch N\u1eef",
+                         "pic": [
+                              "7f4a5fb696ad86229619d8a573424185",
+                              "e7ae89b0cb55f142f680efb03efb4ed9",
+                              "b0f76f1ed37396e41b5fcc04143ad5ee"
+                         ],
+                         "count": 4295,
+                         "tracking": "{\"ABTEST_SIGNATURE\":\"FW26\",\"QUEUE\":\"HOTKW\",\"RANK_SCORE\":0.0015034377574920654,\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+                         "search_info": "{\"ABTEST_SIGNATURE\":\"FW26\",\"QUEUE\":\"HOTKW\",\"RANK_SCORE\":0.0015034377574920654,\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+                         "bff_info": "{}",
+                         "icon_code": 0,
+                         "item_ids": [
+                              5890982659,
+                              21029623681,
+                              15858840768
+                         ]
+                    },
+                    {
+                         "id": null,
+                         "text": "Tai Nghe Bluetooth",
+                         "pic": [
+                              "54d8d2be26fec47d6eb940b217012ec4",
+                              "8e72309120cbccac839e6e31a4d0da8e",
+                              "0ad29f90cf43a6ae84d72947f7274bed"
+                         ],
+                         "count": 6422,
+                         "tracking": "{\"ABTEST_SIGNATURE\":\"FW26\",\"QUEUE\":\"HOTKW\",\"RANK_SCORE\":0.0025810599327087402,\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+                         "search_info": "{\"ABTEST_SIGNATURE\":\"FW26\",\"QUEUE\":\"HOTKW\",\"RANK_SCORE\":0.0025810599327087402,\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+                         "bff_info": "{}",
+                         "icon_code": 0,
+                         "item_ids": [
+                              0,
+                              0,
+                              0
+                         ]
+                    }
+               ],
+               "has_more": false,
+               "tracking": "{\"ABTEST_SIGNATURE\":\"FW26\",\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+               "refresh_interval_sec": 360
+          },
+          "search_response_info": "{\"ABTEST_SIGNATURE\":\"FW26\",\"REQID\":\"bff-search_vn_sg9_10.168.101.5_{1f8a1b84f4cd74dd6b97df868454f200:02000032b946919e:010000d29d596bd4}_k8s-worker-sg9-live-178808069.shopeemobile.com\",\"TAG\":\"default\",\"TIMESTAMP\":\"2023-02-16T17:02:29.695920874+08:00\"}",
+          "bff_response_info": "{}"
+     }
+]

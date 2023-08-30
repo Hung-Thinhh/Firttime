@@ -1,0 +1,268 @@
+.img-1{
+    background-image: url('https://down-vn.img.susercontent.com/file/vn-50009109-a049fc1d1f6dee60097088403aabd014');
+    width: 960px;
+    height: 960px;
+}
+.img-2{
+    background-image: url('https://down-vn.img.susercontent.com/file/vn-50009109-cd28db8718e2274e7ebfd78d8f45e23e');
+    width: 968px;
+    height: 189px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.img-2 a{
+    cursor: pointer;
+    width: 129px;
+    height: 180px;
+    margin: 0 15px;
+    display: inline-block;
+}
+.img-3{
+    background-image: url('https://down-vn.img.susercontent.com/file/7a89380b71dc709a1b2754dc7cf32572');
+    width: 960px;
+    height: 160px;
+}
+.img-4{
+    background-image: url('https://down-vn.img.susercontent.com/file/d4ac1e73a851f0a3c0c87ba876e01c3f');
+    width: 960px;
+    height: 128px;
+}
+.img-5{
+    background-image: url('https://down-vn.img.susercontent.com/file/165092d34d00992054f76097dba54965');
+    width: 960px;
+    height: 300px;
+}
+.img-5 a{
+    cursor: pointer;
+    position: absolute;
+    width: 960px;
+    height: 300px;
+}
+.img-6{
+    background-image: url('https://down-vn.img.susercontent.com/file/8b6ed0ef34e4cc214e1ab1f89730b127');
+    width: 960px;
+    height: 128px;
+}
+.img-7{
+    background-image: url('https://down-vn.img.susercontent.com/file/e4c42cfcc1192524b55565afba76cd4b');
+    width: 960px;
+    height: 314px;
+}
+.img-7 a{
+    cursor: pointer;
+    position: absolute;
+    width: 960px;
+    height: 314px;
+}
+.img-8{
+    background-image: url('https://down-vn.img.susercontent.com/file/8eb4b1db1b899f70cbfc8826447acfee');
+    width: 960px;
+    height: 48px;
+}
+.img-36{
+    background-image: url('https://down-vn.img.susercontent.com/file/4ac39945a438ac486a9e59fac48568ba');
+    width: 960px;
+    height: 137px;  
+    position: relative; 
+}
+.img-36 a{
+    cursor: pointer;
+    position: absolute;
+    width: 960px;
+    height: 137px;
+    left: 0;
+}
+.img-9{
+    background-image: url('https://down-vn.img.susercontent.com/file/vn-50009109-1b702feb283cced45592f43997a05ade');
+    width: 960px;
+    height: 160px;
+}
+.img-10{
+    background-image: url('https://down-vn.img.susercontent.com/file/vn-50009109-8178f4ace7685821bb3171ea6279cd7a');
+    width: 960px;
+    height: 288px;
+}
+.img-11{
+    background-image: url('https://down-vn.img.susercontent.com/file/vn-50009109-e336307d0d78cc3c9743d8c1848c2518');
+    width: 960px;
+    height: 48px;
+}
+.img-12a{
+    background-image: url('https://down-vn.img.susercontent.com/file/vn-50009109-6296ed991df3bca8e44fffd9461eba18');
+    width: 960px;
+    height: 128px;
+    margin: 0 auto;
+}
+.img-12b{
+    background-image: url('https://down-vn.img.susercontent.com/file/vn-50009109-e1e892007fce5996f1c0cc964d122e60');
+    width: 960px;
+    margin: 0 auto;
+    height: 128px;
+}
+.img-12c{
+    background-image: url('https://down-vn.img.susercontent.com/file/vn-50009109-79cf6ad794de8119d722e53a534ad9ce');
+    width: 960px;
+    margin: 0 auto;
+    height: 128px;
+}
+.img-13{
+    background-image: url('https://down-vn.img.susercontent.com/file/8e6c85b48107187ca2579d3a54b612c0');
+    width: 960px;
+    height: 160px;
+}
+.img-14{
+    background-image: url('https://down-vn.img.susercontent.com/file/10543f1f08b681f122e7202f71ebd49e');
+    width: 960px;
+    height: 128px;
+}
+.img-15{
+    background-image: url('https://down-vn.img.susercontent.com/file/vn-50009109-dfd7842bbf628cd03758a4f056c71f0e');
+    width: 960px;
+    height: 274px;
+}
+.img-15 a{
+    width: 960px;
+    height: 274px;
+    cursor: pointer;
+    display: inline-block;
+}
+.img-16{
+    background-image: url('https://down-vn.img.susercontent.com/file/ce9c0174d533d1bab573d599de05b3d4');
+    width: 960px;
+    height: 157px;
+}
+.voucher{
+    display: flex;
+    justify-content: space-around;
+    width: 960px;
+    margin: 0 auto;
+}
+.voucher-1{
+    background-image: url('/assets/img/voucher1.png');
+    width: 448px;
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.voucher-1 a{
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.voucher-2{
+    background-image: url('/assets/img/voucher2.png');
+    width: 448px;
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.voucher-2 a{
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.img-17{
+    background-image: url('https://down-vn.img.susercontent.com/file/cd2b8a483047037c75505b26d81a86eb');
+    width: 960px;
+    height: 160px;
+}
+.img-18{
+    background-image: url('https://down-vn.img.susercontent.com/file/a921e191f7d8a4df340f97f5a4b15f0a');
+    width: 960px;
+    height: 378px;
+}
+.img-19{
+    background-image: url('https://down-vn.img.susercontent.com/file/vn-50009109-d50830b13c6cc6de15571577319c520a');
+    width: 960px;
+    height: 160px;
+}
+.img-20{
+    background-image: url('https://down-vn.img.susercontent.com/file/vn-50009109-6433b4b28fad63462d07232d391a3bfd');
+    width: 960px;
+    height: 64px;
+}
+.img-21{
+    background-image: url('https://down-vn.img.susercontent.com/file/d84a36103280f5487194984c9fe05f15');
+    width: 960px;
+    height: 127px;
+}
+.img-22{
+    background-image: url('https://down-vn.img.susercontent.com/file/636e814ec97027a54059f4ee8ace783b');
+    width: 960px;
+    height: 382px;
+}
+.img-22 a{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+.img-23{
+    background-image: url('https://down-vn.img.susercontent.com/file/e6e00eeaee46e1c1ef5bd5a0df742ce6');
+    width: 960px;
+    height: 160px;
+}
+.img-24{
+    background-image: url('https://down-vn.img.susercontent.com/file/7ed65572cd427701e00d253e136142a7');
+    width: 960px;
+}
+.img-25{
+    background-image: url('https://down-vn.img.susercontent.com/file/f364a5a3a514d742956d6852c6f8f323');
+    width: 960px;
+    height: 320px;
+}
+.img-26{
+    display: none;
+}
+.img-33{
+    background-image: url('https://down-vn.img.susercontent.com/file/34d3355a52c5b8ab500b89a61689b248');
+    width: 960px;
+    height: 160px;
+}
+.img-34{
+    background-image: url('https://cf.shopee.vn/file/fb50b5318aa81e9df052c1959ec7f92c');
+    width: 960px;
+    height: 288px;
+}
+.img-35{
+    background-image: url('https://down-vn.img.susercontent.com/file/31439950104916475de934884bfd0a0b');
+    width: 960px;
+    height: 169px;
+}
+.list_item1 .container__main-category-fs-content-image-list{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.list_item1 .container__main-category-recommed-panels-item{
+    width: 33.33333%;
+}
+.list_item1 .container__main-category-fs-header{
+    display: none;
+}
+.list_item1 .container__main-category-recommed-panels-item-botton-name{
+    min-height: 5rem;
+}
+.list_item1 .container__main-category-recommed-panels-item-botton-name-main{
+    font-size: 16px;
+    line-height: 20px;
+}
+.list_item1 .container__main-category-recommed-panels-item-botton-cost span{
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.list-item-2{
+    min-height: 500px;
+}
+.list-item-2 .container__main-category-recommed-panels-wrap {
+    min-height: auto;
+}
+.container__main-category-recommed-panels-item-botton-bought{
+    background-color: #ee4d2d;
+}
+.list_item1 label {
+    display: none;
+}
+
