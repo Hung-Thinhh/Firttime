@@ -81,10 +81,10 @@ axios.get('/api/get_item', {
         }
         console.log(sole)
         console.log(response.data.data.image)
-        view_big.src = `https://cf.shopee.vn/file/${response.data.data.image}`
+        view_big.src = `https://down-vn.img.susercontent.com/file/${response.data.data.image}`
         for (let i = 0; i < view_item.length; i++) {
             if (response.data.data.images[i]) {
-                view_item[i].src = `https://cf.shopee.vn/file/${response.data.data.images[i]}`
+                view_item[i].src = `https://down-vn.img.susercontent.com/file/${response.data.data.images[i]}`
             }
             else {
                 view_item[i].style.display = 'none'
@@ -92,7 +92,7 @@ axios.get('/api/get_item', {
         }
         for (let i = 0; i < modal_view_item.length; i++) {
             if (response.data.data.images[i]) {
-                modal_view_item[i].src = `https://cf.shopee.vn/file/${response.data.data.images[i]}`
+                modal_view_item[i].src = `https://down-vn.img.susercontent.com/file/${response.data.data.images[i]}`
             }
             else {
                 modal_view_item[i].style.display = 'none'
@@ -316,11 +316,11 @@ axios.get('/api/get_reviews_item', {
                         if (response.data.data.ratings[i].images[j]) {
                             a += 1
                             // console.log(a)
-                            review_product_img_list[j].src = `https://cf.shopee.vn/file/${response.data.data.ratings[i].images[j]}`
-                            review_product_img_big_list[j].src = `https://cf.shopee.vn/file/${response.data.data.ratings[i].images[j]}`
+                            review_product_img_list[j].src = `https://down-vn.img.susercontent.com/file/${response.data.data.ratings[i].images[j]}`
+                            review_product_img_big_list[j].src = `https://down-vn.img.susercontent.com/file/${response.data.data.ratings[i].images[j]}`
                             // review_product_img_big_list[j].setAttribute('id', a)
                             big_list += `<li class="review_product-item-user-album-item-big">
-                            <img src="https://cf.shopee.vn/file/${response.data.data.ratings[i].images[j]}" alt="" >
+                            <img src="https://down-vn.img.susercontent.com/file/${response.data.data.ratings[i].images[j]}" alt="" >
                         </li>`
                         } else {
                             review_product_img_list[j].style.display = 'none'

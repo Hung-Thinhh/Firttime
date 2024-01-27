@@ -8,29 +8,17 @@ module.exports = {
                 primaryKey: true,
                 type: Sequelize.INTEGER
             },
-            ID_user: {
+            id_user: {
                 type: Sequelize.INTEGER,
             },
-            link_product: {
+            id_sp: {
                 type: Sequelize.STRING
             },
-            image: {
+            id_size: {
                 type: Sequelize.STRING
             },
-            quality: {
+            quantity: {
                 type: Sequelize.INTEGER
-            },
-            shop_name: {
-                type: Sequelize.STRING
-            },
-            product_name: {
-                type: Sequelize.STRING
-            },
-            Price: {
-                type: Sequelize.FLOAT
-            },
-            category: {
-                type: Sequelize.STRING
             },
             createdAt: {
                 allowNull: false,

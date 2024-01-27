@@ -23,8 +23,8 @@ let handleLogin = async (req, res) => {
 let checkLogin = (req, res) => {
     try {
         const token = req.cookies.token
-        const ketqua = jwt.verify(token, 'mk')
-        if (ketqua) {
+        if (token) {
+            const ketqua = jwt.verify(token, 'mk')
             // return res.send('update done')
 
             return res.render('index.ejs', {

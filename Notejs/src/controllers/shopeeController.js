@@ -150,7 +150,7 @@ let get_Item = (req, res, next) => {
     },
     // params: params
   };
-  axios.get(`https://shopee.vn/api/v4/item/get?itemid=${iditem}&shopid=${idshop}`, config)
+  axios.get(`https://shopee.vn/api/v4/pdp/get_pc?shop_id=${idshop}&item_id=${iditem}`, config)
     .then(response => {
       const data = response.data;
       // console.log(data);

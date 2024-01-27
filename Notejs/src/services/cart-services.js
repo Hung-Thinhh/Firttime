@@ -6,13 +6,13 @@ let createNewCartItem = async (data, id) => {
     return new Promise(async (resolve, reject) => {
         console.log(data)
         console.log(id)
-        const Product = await db.Cart.findOne({ where: { ID_user: id, link_product: data.link, category: data.category } });
+        const Product = await db.Cart.findOne({ where: { id_user: id, link_product: data.link, category: data.category } });
         if (Product) {
             try {
                 await db.Cart.increment('quality', {
                     by: 1,
                     where: {
-                        ID_user: id
+                        id_user: id
                     }
                 });
                 resolve(201);
@@ -27,7 +27,7 @@ let createNewCartItem = async (data, id) => {
             try {
 
                 await db.Cart.create({
-                    ID_user: id,
+                    id_user: id,
                     link_product: data.link,
                     image: data.image,
                     quality: data.quality,
@@ -62,7 +62,7 @@ let getCartItem = async (id) => {
             const cartsByShop = new Map();
 
             const carts = await db.Cart.findAll({
-                where: { ID_user: id },
+                where: { id_user: id },
                 order: [['id', 'DESC']]
             });
             console.log(carts);
@@ -93,7 +93,7 @@ let deleteCartItem = async (data, id) => {
             await db.Cart.destroy({
 
                 where: {
-                    ID_user: id,
+                    id_user: id,
                     link_product: data.link,
                     category: data.category
                 }

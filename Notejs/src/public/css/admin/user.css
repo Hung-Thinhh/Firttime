@@ -1,0 +1,7 @@
+.modal{
+    position: fixed;
+    background-color: rgb(202, 201, 201);
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}

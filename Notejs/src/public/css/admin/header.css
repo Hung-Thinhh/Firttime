@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+.container_header{
+
+    background-color: #f7462e;
+    display: flex;
+    align-items: center;
+}
+.home{
+    padding: 10px;
+    fill: #fff;
+}
+.home svg{
+    font-size: 10px;
+    width: 150px;
+    margin-left: 30px;
+
+}
+nav{
+    margin-left: 100px;
+}
+nav a{
+    padding: 10px;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover{
+    color: blue;
+}

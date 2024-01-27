@@ -1,8 +1,8 @@
 'use strict';
 
 module.exports = {
-  up: (queryInterface, Sequelize) => {
-    return queryInterface.bulkInsert('Users', [{
+  up: async (queryInterface, Sequelize) => {
+    return queryInterface.bulkInsert('User', [{
       LoginName: "hungthinh2003",
     password: "123456",
     UserName: "Nguyễn Hưng Thịnh",
@@ -10,14 +10,13 @@ module.exports = {
     email: "hungthinhh2003@gmail.com",
     PhoneNumber: "0123456789",
     gender: 1,
-    Date: "2003-04-25",
+    birthday: "2003-04-25",
       createdAt: new Date(),
       updatedAt: new Date()
     }]);
   },
-  
-  down: (queryInterface, Sequelize) => {
-    return queryInterface.bulkDelete('Users', null, {});
-  }
 
+  down: async (queryInterface, Sequelize) => {
+    return queryInterface.bulkDelete('User', null, {});
+  }
 };

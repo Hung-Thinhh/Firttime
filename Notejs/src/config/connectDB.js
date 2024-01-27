@@ -10,10 +10,10 @@ const sequelize = new Sequelize('Shopee', 'root', null,{
 let connectDB = async () => {
     try{
         await sequelize.authenticate();
-        console.log('successfully');
+        console.log('Connection has been established successfully.');
     } catch (err) {
-        console.log(err);
+        console.log('Unable to connect to the database:',err);
     }
 }
 
-module.exports = connectDB;   
+export default  connectDB;   
