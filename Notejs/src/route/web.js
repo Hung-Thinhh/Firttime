@@ -1,6 +1,7 @@
 import express from "express";
 import homeController from "../controllers/homeController";
 import crudController from "../controllers/crudController";
+import shopController from "../controllers/shopController";
 import shopeeController from "../controllers/shopeeController";
 import CartController from "../controllers/CartController";
 let router = express.Router();
@@ -17,6 +18,10 @@ export default function initWebRoutes(app) {
   router.get('/admin/edit-crud', crudController.getEditCRUD);
   router.post('/admin/put-crud', crudController.putCRUD);
   router.post('/admin/delete-crud', crudController.deleteCRUD);
+
+  //shop
+  router.get('/banhang', shopController.getHomePage);
+  router.get('/banhang/portal/product/new', shopController.getNewProduct);
 
   //cliend 
   router.get('/index', homeController.getIndex);
