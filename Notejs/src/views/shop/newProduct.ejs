@@ -14,39 +14,166 @@
         <div class="newProduct-main">
           <div class="product-edit__main">
             <section class="product_info_base">
-                <h4>Thông tin cơ bản</h4>
-                <div class="info_base_item">
-                    <div class="info_base_item_title">
-                        <span>Hình ảnh sản phẩm</span>
-                    </div>
-                    <div class="info_base_item_main">
-                        <div class="info_base_item_main_note">
-                            <div class="mandatory"><span>*</span></div>
-                            <span>Hình ảnh tỷ lệ 1:1</span>
-                        </div>
-                        <div class="info_base_item_main_file">
-                            <div class="modal_wrap_img">
-  
-                                <div class="modal_wrap_img_item">
-                                  
-                                  <input type="file" class="upload-input" style="display: none;">
-                                  <img class="up-img">
-                                  <div class="icon">
-                                    <i class="fa-regular fa-images"></i>
-                                  <p>Thêm hình ảnh (1/<span>9</span>)</p>
-                                  </div>
-                                  <button class="up-img-btn">
-                                  </button>
-                                </div>
-                              </div>
-                              <div class="img_uploaded">
-                                <img src="https://cf.shopee.vn/file/vn-11134207-7r98o-lr4akb4tres965_tn" alt="">
-                              </div>
-                        </div>
-                    </div>
+              <h4>Thông tin cơ bản</h4>
+              <div class="info_base_item">
+                <div class="info_base_item_title">
+                  <span>Hình ảnh sản phẩm</span>
                 </div>
+                <div class="info_base_item_main">
+                  <div class="info_base_item_main_note">
+                    <div class="mandatory"><span>*</span></div>
+                    <span>Hình ảnh tỷ lệ 1:1</span>
+                  </div>
+                  <div class="info_base_item_main_file">
+                    <div class="modal_wrap_img">
+                      <div class="modal_wrap_img_item">
+                        <input
+                          type="file"
+                          class="upload-input"
+                          multiple
+                          style="display: none" />
+                        <img class="up-img" />
+                        <div class="icon">
+                          <i class="fa-regular fa-images"></i>
+                          <p>Thêm hình ảnh (1/<span>9</span>)</p>
+                        </div>
+                        <button class="up-img-btn"></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="info_base_item">
+                <div class="info_base_item_title">
+                  <div class="mandatory"><span>*</span>Tên sản phẩm</div>
+                </div>
+                <div class="info_base_item_main">
+                  <div class="item_input search_input">
+                    <input type="text" />
+                    <div class="item_input_sl"><span>0</span>/120</div>
+                  </div>
+                </div>
+              </div>
+              <div class="info_base_item">
+                <div class="info_base_item_title">
+                  <div class="mandatory"><span>*</span>Ngành hàng</div>
+                </div>
+                <div class="info_base_item_main">
+                  <!-- Button trigger modal -->
+                  <div class="item_input search_input">
+                    <button
+                    type="button"
+                    class="btn"
+                    data-toggle="modal"
+                    data-target="#exampleModalCenter">
+                    
+                  </button>
+                  <i class="fa-solid fa-pen"></i>
+                  </div>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModalCenter"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="exampleModalCenterTitle"
+                    aria-hidden="true">
+                    <div
+                      class="modal-dialog modal-dialog-centered"
+                      role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLongTitle">
+                            Chỉnh sửa ngành hàng
+                          </h5>
+                          <button
+                            type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="modal_branch_container">
+                            <div class="modal_branch_container_search">
+                              <div class="search_input">
+                                <input type="text" placeholder="Vui lòng nhập tối thiểu 1 kí tự">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                              </div>
+                            </div>
+                            <div class="modal_branch_container_list_main">
+                              <div class="modal_branch_container_list">
+                                <ul>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                </ul>
+                                <ul>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                </ul>
+                                <ul>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                  <li><span>Thời trang nam</span><i class="fa-solid fa-angle-right"></i></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <div class="result_branch">
+                            Đã chọn: <span>Sắc đẹp</span><i class="fa-solid fa-angle-right"></i>
+                          </div>
+                          <div class="btn_modal">
+                            <button
+                            type="button"
+                            class="btn btn_exit "
+                            data-dismiss="modal">
+                            Huỷ
+                          </button>
+                          <button type="button" class="btn btn-primary btn_bracnh_enter">
+                            Xác nhận
+                          </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="info_base_item">
+                <div class="info_base_item_title">
+                  <div class="mandatory"><span>*</span>Mô tả sản phẩm</div>
+                </div>
+                <div class="info_base_item_main">
+                  <div class="item_textarea ">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                  </div>
+                </div>
+              </div>
             </section>
-            
           </div>
           <div class="product-edit__side">
             <div class="side_list">
@@ -131,13 +258,12 @@
                       <text x="18" y="20.35" class="percentage">30%</text>
                     </svg>
                   </div>
-                  <span>Thông tin cơ bản</span> 
+                  <span>Thông tin cơ bản</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-       
       </div>
     </div>
     <script src="../../../js/shop/newProduct.js"></script>
