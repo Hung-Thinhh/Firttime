@@ -11,11 +11,14 @@
     width: 1200px;
     margin: 0 auto;
     /* background: #fff; */
-    box-shadow: 0 1px 4px 0 rgba(74, 74, 78, .12);
+    
 }
 .product_info_base{
     background-color: #fff;
     padding: 20px;
+    margin-top: 10px;
+    box-shadow: 0 1px 4px 0 rgba(74, 74, 78, .12);
+
 }
 .product_info_base h4{
     font-weight: bold;
@@ -92,6 +95,7 @@
     -ms-flex: 0 0 1016px;
     flex: 0 0 1016px;
     margin-left: 142px;
+    padding: 5px 0;
 }
 
 .item_input{
@@ -106,6 +110,7 @@
     border: 0!important;
     box-shadow: unset !important;
 }
+
 .item_textarea textarea{
     width: 100%;
     resize: none;
@@ -118,6 +123,9 @@
 }
 .btn:hover {
     text-decoration: none;
+}
+.info_base_item_row{
+    padding: 0 30px;
 }
 .info_base_item{
     display: flex;
@@ -272,6 +280,19 @@
     padding: 0 10px;
     border-radius: 5px;
 }
+.btn_item {
+    border: 1px dashed #b7b7b7;
+    color: #f7462e;
+}
+.btn_item i{
+    color: #f7462e!important;
+    margin-right: 10px;
+}
+.btn_item:hover{
+    background-color: #fdf3f1;
+    border: 1px dashed #f7462e;
+
+}
 .search_input input{
     border: none;
     width: 80%;
@@ -286,6 +307,13 @@
 }
 .search_input i{
     color: #b7b7b7;
+}
+.search_input select{
+    width: 100%;
+    height: 100%;
+    border: 0;
+  outline: 0;
+  background-color: transparent;
 }
 @media (min-width: 576px){
 
