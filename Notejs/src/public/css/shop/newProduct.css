@@ -365,3 +365,39 @@
 .result_branch span{
     font-weight: bold;
 }
+
+.info_sell_item_select .info_base_item_title{
+    justify-content: flex-start;
+    flex-basis: 70px;
+    font-size: 14px;
+}
+.info_sell_item_select .info_base_item_main{
+    display: flex;
+    align-items: center;
+}
+.info_sell_item_select .info_base_item_main i{
+    margin-left: 10px;
+    cursor: pointer;
+    color: #b7b7b7;
+}
+.info_sell_item_select .info_base_item_main i:hover{
+    color: #667580;
+}
+.info_sell_item_select .info_base_item{
+    align-items: center !important;
+}
+.info_sell .info_base_item{
+    align-items: flex-start;
+}
+.info_sell_item_select .row{
+    width: 100%;
+    margin-left: -5px;
+}
+.info_sell_item_select .row .info_base_item_main{
+    margin-bottom: 15px;
+}
+.bc_info_sell{
+    background-color: #f6f6f6;
+    padding: 15px;
+    margin-bottom: 20px;
+}
