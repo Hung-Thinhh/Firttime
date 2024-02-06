@@ -487,35 +487,200 @@
                     </div>
                   </div>
                 </div>
-                <div class="row row-cols-2 info_base_item_row">
+                <div class="info_base_item_row row">
                   <div class="info_base_item">
                     <div class="info_base_item_title">
-                      <div class="mandatory"><span>*</span>Giá</div>
+                      <div class="">Danh sách phân loại hàng</div>
                     </div>
                     <div class="info_base_item_main">
-                      <!-- Button trigger modal -->
-                      <div class="item_input search_input">
-                        <input type="text" name="" id="" />
+                      <div class="set_all_sell">
+                        <div class="set_all_sell_input">
+                          <div class="set_all_sell_price search_input">
+                            <div class="item_input_sl">
+                              <span>₫</span>
+                            </div>
+                            <input type="text" placeholder="Giá" />
+                          </div>
+                          <div class="set_all_sell_price search_input">
+                            <input type="text" placeholder="Giá" />
+                          </div>
+                          <div class="set_all_sell_price search_input">
+                            <input type="text" placeholder="Giá" />
+                          </div>
+                        </div>
+                        <div class="set_all_sell_btn">
+                          <button>Áp dụng cho tất cả phân loại</button>
+                        </div>
                       </div>
-
-                      <!-- Modal -->
-                    </div>
-                  </div>
-                </div>
-                <div class="row row-cols-2 info_base_item_row">
-                  <div class="info_base_item">
-                    <div class="info_base_item_title">
-                      <div class="mandatory"><span>*</span>Kho hàng</div>
-                    </div>
-                    <div class="info_base_item_main">
-                      <div class="item_input search_input">
-                        <input type="text" name="" id="" />
+                      <div class="group_sell ">
+                        
+                        <table class="table table-bordered">
+                          <thead class="thead-light">
+                            <tr>
+                              <th scope="col">màu</th>
+                              <th scope="col">loại</th>
+                              <th scope="col"><div class="mandatory"><span>*</span>Giá</div></th>
+                              <th scope="col"><div class="mandatory"><span>*</span>Kho hàng</div></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td scope="row">đỏ</td>
+                              <td>S</td>
+                              <td><div class="set_all_sell_price search_input">
+                                <div class="item_input_sl">
+                                  <span>₫</span>
+                                </div>
+                                <input type="text" placeholder="Giá" />
+                              </div></td>
+                              <td><div class="set_all_sell_price search_input">
+                               
+                                <input type="text" value="0" />
+                              </div></td>
+                            </tr>
+                            <tr>
+                              <td scope="row">đen</td>
+                              <td>S</td>
+                              <td><div class="set_all_sell_price search_input">
+                                <div class="item_input_sl">
+                                  <span>₫</span>
+                                </div>
+                                <input type="text" placeholder="Giá" />
+                              </div></td>
+                              <td><div class="set_all_sell_price search_input">
+                               
+                                <input type="text" value="0" />
+                              </div></td>
+                            </tr>
+                           
+                          </tbody>
+                        </table>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </section>
+            <section class="product_info_base">
+              <h4>Thông tin cơ bản</h4>
+             
+              <div class="info_base_item">
+                <div class="info_base_item_title">
+                  <div class="mandatory"><span>*</span>Cân nặng (Sau khi đóng gói)</div>
+                </div>
+                <div class="info_base_item_main">
+                  <div class="item_input search_input">
+                    <input type="text" />
+                    <div class="item_input_sl"><span>gr</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="info_base_item">
+                <div class="info_base_item_title">
+                  <div class="mandatory">Kích thước đóng gói (Phí vận chuyển thực tế sẽ thay đổi nếu bạn nhập sai kích thước)
+                  </div>
+                </div>
+                <div class="info_base_item_main package_size">
+                  <div class="item_input search_input">
+                    <input type="text" placeholder="Dài"/>
+                    <div class="item_input_sl"><span>cm</span></div>
+                  </div>
+                  <i class="fa-solid fa-xmark"></i>
+                  <div class="item_input search_input">
+                    <input type="text" placeholder="Rộng"/>
+                    <div class="item_input_sl"><span>cm</span></div>
+                  </div>
+                  <i class="fa-solid fa-xmark"></i>
+                  <div class="item_input search_input">
+                    <input type="text" placeholder="Cao"/>
+                    <div class="item_input_sl"><span>cm</span></div>
+                  </div>
+
+                
+                </div>
+              </div>
+              <div class="info_base_item">
+                <div class="info_base_item_title">
+                  <div class="mandatory"><span>*</span>Phí vận chuyển</div>
+                </div>
+                <div class="info_base_item_main">
+                  <div class="ship_item">
+                    <div class="ship_item_title">
+                      Tiết kiệm
+                    </div>
+                    <div class="ship_item_main">
+                      <div class="ship_item_name">
+                        <span>Tiết kiệm</span>
+                        <div class="ship_item_name_tag">
+                          <span>shopee vận chuyển</span>
+                        </div>
+                      </div>
+                      <div class="ship_item_price">
+                        <div class="price">
+                          <span>₫13.500</span>
+                        </div>
+                        <label class="switch">
+                          <input type="checkbox">
+                          <span class="slider"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ship_item">
+                    <div class="ship_item_title">
+                      Nhanh
+                    </div>
+                    <div class="ship_item_main">
+                      <div class="ship_item_name">
+                        <span>Nhanh</span>
+                        <div class="ship_item_name_tag">
+                          <span>shopee vận chuyển</span>
+                        </div>
+                      </div>
+                      <div class="ship_item_price">
+                        <div class="price">
+                          <span>₫13.500</span>
+                        </div>
+                        <label class="switch">
+                          <input type="checkbox">
+                          <span class="slider"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ship_item">
+                    <div class="ship_item_title">
+                      Hoả tốc
+                    </div>
+                    <div class="ship_item_main">
+                      <div class="ship_item_name">
+                        <span>Hoả tốc</span>
+                        <div class="ship_item_name_tag">
+                          <span>shopee vận chuyển</span>
+                        </div>
+                      </div>
+                      <div class="ship_item_price">
+                        <div class="price">
+                          <span>₫13.500</span>
+                        </div>
+                        <label class="switch">
+                          <input type="checkbox">
+                          <span class="slider"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="product_info_base foot_info">
+              <div class="foot_info_btn">
+                <button class="base_btn">Huỷ</button>
+                <button class="base_btn">Lưu & Ẩn</button>
+                <button class="primary_btn">Lưu & Hiển thị</button>
+              </div>
+            </section>
+
           </div>
           <div class="product-edit__side">
             <div class="side_list">

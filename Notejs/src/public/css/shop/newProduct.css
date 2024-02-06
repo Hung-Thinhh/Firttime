@@ -4,7 +4,6 @@
 .container-newProduct{
     margin-top: 58px;
     position: relative;
-    height: 1000px;
 
 }
 .newProduct-main {
@@ -270,8 +269,16 @@
     background-color: #f6f6f6;
     margin: 0 30px;
 }
+.package_size{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.package_size i{
+    color: #e5e5e5;
+}
 .search_input{
-    border: 1px solid #b7b7b7;
+    border: 1px solid #e5e5e5;
     width: 35%;
     background-color: #fff;
     display: flex;
@@ -279,6 +286,10 @@
     align-items: center;
     padding: 0 10px;
     border-radius: 5px;
+}
+.search_input:hover{
+    border: 1px solid #b7b7b7;
+
 }
 .btn_item {
     border: 1px dashed #b7b7b7;
@@ -401,3 +412,157 @@
     padding: 15px;
     margin-bottom: 20px;
 }
+.set_all_sell_price .item_input_sl{
+    border-left: 0;
+    border-right: 1px solid #b7b7b7;
+    padding-right: 10px;
+}
+.set_all_sell_input{
+    display: flex;
+    flex: 1;
+}
+.set_all_sell_input .search_input{
+    height: 30px;
+}
+.set_all_sell{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.set_all_sell_btn button{
+    background-color: #f7462e;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+td .search_input{
+    width: auto;
+}
+th{
+    text-align: center !important;
+    background-color: #f5f5f5 !important;
+}
+td{
+    text-align: center !important;
+
+}
+.ship_item{
+    border: 1px solid #e5e5e5;
+}
+.ship_item_title{
+    padding: 10px 20px;
+    background: #f9f9f9;
+}
+.ship_item_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.ship_item_name{
+    display: flex;
+    align-items: center;
+}
+.ship_item_name_tag{
+    background-color: #fff1f0;
+    color: #ee4d2d;
+    margin-left: 10px;
+}
+.ship_item_name_tag span{
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 0 5px;
+}
+.ship_item_price{
+    display: flex;
+    gap: 20px;
+}
+/* The switch - the box around the slider */
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+   }
+   
+   /* Hide default HTML checkbox */
+   .switch input {
+    opacity: 1;
+    width: 0;
+    height: 0;
+   }
+   
+   /* The slider */
+   .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    background: #b7b7b7;
+    transition: .4s;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+   }
+   
+   .slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    border-radius: 16px;
+    left: 1.2px;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+    box-shadow: 0 2px 5px #999999;
+    transition: .4s;
+   }
+   
+   input:checked + .slider {
+    background-color: #5fdd54;
+    border: 1px solid transparent;
+   }
+   
+   input:checked + .slider:before {
+    transform: translateX(1.5em);
+   }    
+   .foot_info{
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: transparent; */
+    margin-bottom: 30px;
+    /* box-shadow: unset ; */
+    position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  /* background-color: yellow; */
+   }
+   .foot_info_btn button{
+    outline: 0;
+    border-radius: 5px;
+    width: 150px;
+    margin: 0 10px;
+    padding: 5px 0;
+   }
+   .base_btn{
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+   }
+   .base_btn:hover{
+    background-color: #f5f5f5;
+   }
+   .primary_btn{
+    background-color: #ee4d2d;
+    color: #fff;
+    border: 0;
+   }
+   .primary_btn:hover{
+    background-color: #e54a2b;
+   }
