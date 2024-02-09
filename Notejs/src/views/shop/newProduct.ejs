@@ -8,8 +8,14 @@
     <link rel="stylesheet" href="../../../css/shop/newProduct.css" />
   </head>
   <body>
+    <script>
+      // const group_type = <%=group_type %>;
+      const type_sp =<%-JSON.stringify(type_sp)%>
+      const group_type =<%-JSON.stringify(group_type)%>
+    </script>
     <div class="app">
       <%- include(header) %>
+
       <div class="container-newProduct">
         <div class="newProduct-main">
           <div class="product-edit__main">
@@ -48,8 +54,8 @@
                   <div class="mandatory"><span>*</span>Tên sản phẩm</div>
                 </div>
                 <div class="info_base_item_main">
-                  <div class="item_input search_input">
-                    <input type="text" />
+                  <div class="item_input search_input name_product_input">
+                    <input type="text" id="name_product" name="name_product" />
                     <div class="item_input_sl"><span>0</span>/120</div>
                   </div>
                 </div>
@@ -63,7 +69,7 @@
                   <div class="item_input search_input">
                     <button
                       type="button"
-                      class="btn"
+                      class="btn industry_prtoduct"
                       data-toggle="modal"
                       data-target="#exampleModalCenter"></button>
                     <i class="fa-solid fa-pen"></i>
@@ -105,120 +111,9 @@
                             </div>
                             <div class="modal_branch_container_list_main">
                               <div class="modal_branch_container_list">
-                                <ul>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                </ul>
-                                <ul>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                </ul>
-                                <ul>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                  <li>
-                                    <span>Thời trang nam</span
-                                    ><i class="fa-solid fa-angle-right"></i>
-                                  </li>
-                                </ul>
+                                <ul class="branch_group_a"></ul>
+                                <ul class="branch_group_b"></ul>
+                                <ul class="branch_group_c"></ul>
                               </div>
                             </div>
                           </div>
@@ -512,47 +407,57 @@
                           <button>Áp dụng cho tất cả phân loại</button>
                         </div>
                       </div>
-                      <div class="group_sell ">
-                        
+                      <div class="group_sell">
                         <table class="table table-bordered">
                           <thead class="thead-light">
                             <tr>
                               <th scope="col">màu</th>
                               <th scope="col">loại</th>
-                              <th scope="col"><div class="mandatory"><span>*</span>Giá</div></th>
-                              <th scope="col"><div class="mandatory"><span>*</span>Kho hàng</div></th>
+                              <th scope="col">
+                                <div class="mandatory"><span>*</span>Giá</div>
+                              </th>
+                              <th scope="col">
+                                <div class="mandatory">
+                                  <span>*</span>Kho hàng
+                                </div>
+                              </th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
                               <td scope="row">đỏ</td>
                               <td>S</td>
-                              <td><div class="set_all_sell_price search_input">
-                                <div class="item_input_sl">
-                                  <span>₫</span>
+                              <td>
+                                <div class="set_all_sell_price search_input">
+                                  <div class="item_input_sl">
+                                    <span>₫</span>
+                                  </div>
+                                  <input type="text" placeholder="Giá" />
                                 </div>
-                                <input type="text" placeholder="Giá" />
-                              </div></td>
-                              <td><div class="set_all_sell_price search_input">
-                               
-                                <input type="text" value="0" />
-                              </div></td>
+                              </td>
+                              <td>
+                                <div class="set_all_sell_price search_input">
+                                  <input type="text" value="0" />
+                                </div>
+                              </td>
                             </tr>
                             <tr>
                               <td scope="row">đen</td>
                               <td>S</td>
-                              <td><div class="set_all_sell_price search_input">
-                                <div class="item_input_sl">
-                                  <span>₫</span>
+                              <td>
+                                <div class="set_all_sell_price search_input">
+                                  <div class="item_input_sl">
+                                    <span>₫</span>
+                                  </div>
+                                  <input type="text" placeholder="Giá" />
                                 </div>
-                                <input type="text" placeholder="Giá" />
-                              </div></td>
-                              <td><div class="set_all_sell_price search_input">
-                               
-                                <input type="text" value="0" />
-                              </div></td>
+                              </td>
+                              <td>
+                                <div class="set_all_sell_price search_input">
+                                  <input type="text" value="0" />
+                                </div>
+                              </td>
                             </tr>
-                           
                           </tbody>
                         </table>
                       </div>
@@ -563,10 +468,12 @@
             </section>
             <section class="product_info_base">
               <h4>Thông tin cơ bản</h4>
-             
+
               <div class="info_base_item">
                 <div class="info_base_item_title">
-                  <div class="mandatory"><span>*</span>Cân nặng (Sau khi đóng gói)</div>
+                  <div class="mandatory">
+                    <span>*</span>Cân nặng (Sau khi đóng gói)
+                  </div>
                 </div>
                 <div class="info_base_item_main">
                   <div class="item_input search_input">
@@ -577,26 +484,26 @@
               </div>
               <div class="info_base_item">
                 <div class="info_base_item_title">
-                  <div class="mandatory">Kích thước đóng gói (Phí vận chuyển thực tế sẽ thay đổi nếu bạn nhập sai kích thước)
+                  <div class="mandatory">
+                    Kích thước đóng gói (Phí vận chuyển thực tế sẽ thay đổi nếu
+                    bạn nhập sai kích thước)
                   </div>
                 </div>
                 <div class="info_base_item_main package_size">
                   <div class="item_input search_input">
-                    <input type="text" placeholder="Dài"/>
+                    <input type="text" placeholder="Dài" />
                     <div class="item_input_sl"><span>cm</span></div>
                   </div>
                   <i class="fa-solid fa-xmark"></i>
                   <div class="item_input search_input">
-                    <input type="text" placeholder="Rộng"/>
+                    <input type="text" placeholder="Rộng" />
                     <div class="item_input_sl"><span>cm</span></div>
                   </div>
                   <i class="fa-solid fa-xmark"></i>
                   <div class="item_input search_input">
-                    <input type="text" placeholder="Cao"/>
+                    <input type="text" placeholder="Cao" />
                     <div class="item_input_sl"><span>cm</span></div>
                   </div>
-
-                
                 </div>
               </div>
               <div class="info_base_item">
@@ -605,9 +512,7 @@
                 </div>
                 <div class="info_base_item_main">
                   <div class="ship_item">
-                    <div class="ship_item_title">
-                      Tiết kiệm
-                    </div>
+                    <div class="ship_item_title">Tiết kiệm</div>
                     <div class="ship_item_main">
                       <div class="ship_item_name">
                         <span>Tiết kiệm</span>
@@ -620,16 +525,14 @@
                           <span>₫13.500</span>
                         </div>
                         <label class="switch">
-                          <input type="checkbox">
+                          <input type="checkbox" />
                           <span class="slider"></span>
                         </label>
                       </div>
                     </div>
                   </div>
                   <div class="ship_item">
-                    <div class="ship_item_title">
-                      Nhanh
-                    </div>
+                    <div class="ship_item_title">Nhanh</div>
                     <div class="ship_item_main">
                       <div class="ship_item_name">
                         <span>Nhanh</span>
@@ -642,16 +545,14 @@
                           <span>₫13.500</span>
                         </div>
                         <label class="switch">
-                          <input type="checkbox">
+                          <input type="checkbox" />
                           <span class="slider"></span>
                         </label>
                       </div>
                     </div>
                   </div>
                   <div class="ship_item">
-                    <div class="ship_item_title">
-                      Hoả tốc
-                    </div>
+                    <div class="ship_item_title">Hoả tốc</div>
                     <div class="ship_item_main">
                       <div class="ship_item_name">
                         <span>Hoả tốc</span>
@@ -664,7 +565,7 @@
                           <span>₫13.500</span>
                         </div>
                         <label class="switch">
-                          <input type="checkbox">
+                          <input type="checkbox" />
                           <span class="slider"></span>
                         </label>
                       </div>
@@ -680,7 +581,6 @@
                 <button class="primary_btn">Lưu & Hiển thị</button>
               </div>
             </section>
-
           </div>
           <div class="product-edit__side">
             <div class="side_list">

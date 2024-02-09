@@ -10,14 +10,33 @@ let getHomePage = async (req, res) => {
     } catch (err) {
         console.log(err);
     }
-
 }
 let getNewProduct = async (req, res) => {
     try {
+        const group_type = await shopServices.getAllGroupType()
+        const type_sp = await shopServices.getAllTypeSp()
+        console.log(group_type, type_sp)
         return res.render('shop/newProduct.ejs', {
             header: 'header',
             slide_bar: 'slide_bar',
+            group_type: group_type,
+            type_sp:type_sp
         });
+    } catch (err) {
+        console.log(err);
+    }
+
+}
+let get_group_type = async (req, res) => {
+    try {
+        let data = await shopServices.getAllGroupType();
+        console.log(data)
+
+        return res.status(200).json({
+            EM: 'get group type successfully',
+            EC: 0,
+            DT: data
+        })
     } catch (err) {
         console.log(err);
     }
@@ -113,7 +132,8 @@ let postSignup = async (req, res) => {
 
 module.exports = {
     getHomePage: getHomePage,
-    getNewProduct:getNewProduct,
+    getNewProduct: getNewProduct,
+    get_group_type:get_group_type,
     getCRUD: getCRUD,
     handleCreateNewUser:handleCreateNewUser,
     // postCRUD: postCRUD,
@@ -122,5 +142,6 @@ module.exports = {
     putCRUD: putCRUD,
     deleteCRUD: deleteCRUD,
     postSignup: postSignup,
+
     
 }

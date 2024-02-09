@@ -245,7 +245,9 @@
     background: #fdf3f1;
     border: 1px dashed #f7462e;
 }
-
+.modal_branch_container_list li span{
+    text-transform: capitalize;
+}
 .button-35.up-btn {
     padding: 1rem 4rem;
 }

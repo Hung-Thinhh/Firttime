@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
          */
         static associate(models) {
             // define association here
-            Type_Sp.belongsTo(models.Group_Type, { foreignKey: 'id_loai' })
+            Type_Sp.belongsTo(models.Group_Type, { foreignKey: 'id_group_loai' })
             Type_Sp.hasMany(models.Product, {foreignKey: 'id_loai'})
         }
     };

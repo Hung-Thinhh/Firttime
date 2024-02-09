@@ -3,6 +3,8 @@ import homeController from "../controllers/homeController";
 import UserController from "../controllers/UserController";
 import shopeeController from "../controllers/shopeeController";
 import CartController from "../controllers/CartController";
+import shopController from "../controllers/shopController";
+
 let router = express.Router();
 
 const initApiRouter = (app) => {
@@ -41,6 +43,10 @@ const initApiRouter = (app) => {
     router.post('/New_cart_item', CartController.New_cart_item);
     router.get('/Get_cart_item', CartController.get_cart_item);
     router.post('/Delete_cart_item', CartController.delete_cart_item);
+
+
+    // shop ban hang
+    router.get('/getGroupType', shopController.get_group_type);
 
     return app.use("/api", router);
 }

@@ -19,30 +19,28 @@ function validateFile(file) {
   return true;
 }
 document.addEventListener("dragover", function (event) {
-    event.preventDefault()
+  event.preventDefault();
   if (event.target.classList.contains("modal_wrap_img_item")) {
-      handleDragOver.call(event.target, event);
-      console.log('o')
+    handleDragOver.call(event.target, event);
+    console.log("o");
   }
 });
 
 document.addEventListener("dragleave", function (event) {
-    event.preventDefault()
+  event.preventDefault();
   if (event.target.classList.contains("modal_wrap_img_item")) {
     handleDragLeave.call(event.target, event);
-    }
-    console.log("haha");
-    
+  }
+  console.log("haha");
 });
 
 document.addEventListener("drop", function (event) {
-    event.preventDefault()
-    if (event.target.classList.contains("up-img-btn")) {
-        console.log("pp");
+  event.preventDefault();
+  if (event.target.classList.contains("up-img-btn")) {
+    console.log("pp");
     handleDrop.call(event.target, event);
-}
-console.log(event.target);
-    
+  }
+  console.log(event.target);
 });
 
 document.addEventListener("click", function (event) {
@@ -64,33 +62,30 @@ document.addEventListener("change", function (event) {
 
 function handleDragOver(event) {
   event.preventDefault();
-    this.classList.add("dragover");
-    console.log("haha");
+  this.classList.add("dragover");
+  console.log("haha");
 }
 
 function handleDragLeave(event) {
   event.preventDefault();
-    this.classList.remove("dragover");
-    console.log("haha");
-    
+  this.classList.remove("dragover");
+  console.log("haha");
 }
 
 function handleDrop(event) {
-    event.preventDefault()
+  event.preventDefault();
   let files = event.dataTransfer.files;
 
   if (validateFile(files[0])) {
     event.preventDefault();
     this.classList.remove("dragover");
-      const file = files[0];
-      myFile.push(file);
-      displayImage.call(document.querySelector('.modal_wrap_img'), file);
-      console.log(myFile)
-    }
-    console.log("haha");
-    
+    const file = files[0];
+    myFile.push(file);
+    displayImage.call(document.querySelector(".modal_wrap_img"), file);
+    console.log(myFile);
+  }
+  console.log("haha");
 }
-
 
 let myFile = [];
 function handleUploadInputChange(event) {
@@ -122,7 +117,7 @@ function displayImage(file) {
 }
 
 document.addEventListener("mouseup", function (event) {
-    event.preventDefault()
+  event.preventDefault();
   var container = document.querySelector(".info_base_item_main_file");
 
   // if the target of the click isn't the container nor a descendant of the container
@@ -139,11 +134,8 @@ document.addEventListener("mouseup", function (event) {
           document.querySelectorAll(".modal_img").children.length;
       }
     }
-      container.style.display = "none";
-      
-    }
-    console.log("haha");
-    
+    container.style.display = "none";
+  }
 });
 
 function dropHandler(ev) {
@@ -166,15 +158,64 @@ function dropHandler(ev) {
     [...ev.dataTransfer.files].forEach((file, i) => {
       console.log(`… file[${i}].name = ${file.name}`);
     });
-    }
-    console.log("haha");
-    
+  }
+  console.log("haha");
 }
 function dragOverHandler(ev) {
   console.log("File(s) in drop zone");
 
   // Prevent default behavior (Prevent file from being opened)
-    ev.preventDefault();
-    console.log("haha");
-    
+  ev.preventDefault();
+  console.log("haha");
+}
+
+//
+const inputElement = document.getElementById("name_product"); // Thay "myInput" bằng id của trường input của bạn
+const name_product_characters = document.querySelector(
+  ".name_product_input .item_input_sl span"
+);
+inputElement.addEventListener("keydown", function (event) {
+  const inputValue = this.value;
+  const characterCount = inputValue.length;
+
+  name_product_characters.innerHTML = characterCount;
+
+  if (
+    characterCount >= 120 &&
+    event.key !== "Backspace" &&
+    event.key !== "Delete"
+  ) {
+    event.preventDefault();
+  }
+});
+
+console.log(group_type);
+const branch_group_a = document.querySelector(".branch_group_a");
+const branch_group_b = document.querySelector(".branch_group_b");
+let group_item = "";
+for (let i = 0; i < group_type.length; i++) {
+  group_item += `<li id=${group_type[i].id}>
+        <span>${group_type[i].name}</span
+        ><i class="fa-solid fa-angle-right"></i>
+      </li>`;
+}
+branch_group_a.innerHTML = group_item;
+
+
+const list_group_a = branch_group_a.querySelectorAll("li");
+for (const item of list_group_a) {
+  item.onclick = () => {
+    let list_type_sp = "";
+    for (let i = 0; i < type_sp.length; i++) {
+      if (type_sp[i].id_group_loai == item.id) {
+        console.log(item.id);
+
+        list_type_sp += `<li id=${type_sp[i].id}>
+            <span>${type_sp[i].name}</span
+            ><i class="fa-solid fa-angle-right"></i>
+          </li>`;
+      }
+    }
+    branch_group_b.innerHTML = list_type_sp;
+  };
 }
