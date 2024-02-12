@@ -21,7 +21,7 @@ let getAllTypeSp = async() => {
 
   try {
       let group_type = await db.Type_Sp.findAll({
-          attributes: ['id','id_group_loai', 'name'],
+          attributes: ['id','id_group_loai', 'name','children_type'],
       raw: true,
       });
     return group_type;

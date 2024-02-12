@@ -201,7 +201,7 @@ for (let i = 0; i < group_type.length; i++) {
 }
 branch_group_a.innerHTML = group_item;
 
-
+console.log(type_sp)
 const list_group_a = branch_group_a.querySelectorAll("li");
 for (const item of list_group_a) {
   item.onclick = () => {
