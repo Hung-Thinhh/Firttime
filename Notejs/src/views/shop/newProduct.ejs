@@ -67,11 +67,14 @@
                 <div class="info_base_item_main">
                   <!-- Button trigger modal -->
                   <div class="item_input search_input">
+                    <div class="industry_prtoduct_group">
+                      <input type="text" value="" placeholder="Nhập vào">
                     <button
                       type="button"
                       class="btn industry_prtoduct"
                       data-toggle="modal"
                       data-target="#exampleModalCenter"></button>
+                    </div>
                     <i class="fa-solid fa-pen"></i>
                   </div>
 
@@ -119,9 +122,19 @@
                           </div>
                         </div>
                         <div class="modal-footer">
-                          <div class="result_branch">
-                            Đã chọn: <span>Sắc đẹp</span
-                            ><i class="fa-solid fa-angle-right"></i>
+                          <div class="result_branch_container">
+                            Đã chọn:
+                            <div class="result_branch_a result_branch">
+                              <span>Sắc đẹp</span
+                              >
+                            </div>
+                            <div class="result_branch_b result_branch">
+                              <span>Sắc đẹp</span
+                              >
+                            </div>
+                            <div class="result_branch_c result_branch">
+                              <span>Sắc đẹp</span>
+                            </div>
                           </div>
                           <div class="btn_modal">
                             <button
@@ -132,7 +145,7 @@
                             </button>
                             <button
                               type="button"
-                              class="btn btn-primary btn_bracnh_enter">
+                              class="btn btn-primary  btn_bracnh_enter" data-dismiss="modal">
                               Xác nhận
                             </button>
                           </div>

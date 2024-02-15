@@ -15,7 +15,6 @@ let getNewProduct = async (req, res) => {
     try {
         const group_type = await shopServices.getAllGroupType()
         const type_sp = await shopServices.getAllTypeSp()
-        console.log(group_type, type_sp)
         return res.render('shop/newProduct.ejs', {
             header: 'header',
             slide_bar: 'slide_bar',

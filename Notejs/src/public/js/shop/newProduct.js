@@ -192,6 +192,10 @@ inputElement.addEventListener("keydown", function (event) {
 console.log(group_type);
 const branch_group_a = document.querySelector(".branch_group_a");
 const branch_group_b = document.querySelector(".branch_group_b");
+const branch_group_c = document.querySelector(".branch_group_c");
+const result_branch_a = document.querySelector(".result_branch_a span");
+const result_branch_b = document.querySelector(".result_branch_b span");
+const result_branch_c = document.querySelector(".result_branch_c span");
 let group_item = "";
 for (let i = 0; i < group_type.length; i++) {
   group_item += `<li id=${group_type[i].id}>
@@ -200,22 +204,85 @@ for (let i = 0; i < group_type.length; i++) {
       </li>`;
 }
 branch_group_a.innerHTML = group_item;
+function handle_children_type_c() {
+  let list_group_c = branch_group_c.querySelectorAll("li");
 
-console.log(type_sp)
+  for (const item of list_group_c) {
+    item.onclick = () => {
+      list_group_c.forEach(function(item) {
+        item.classList.remove("active");
+      });
+      result_branch_c.innerHTML = item.innerHTML;
+      item.classList.add('active')
+
+    };
+  }
+}
+function handle_children_type() {
+  let list_group_b = branch_group_b.querySelectorAll("li");
+  console.log(list_group_b);
+  for (const item of list_group_b) {
+    item.onclick = () => {
+      list_group_b.forEach(function(item) {
+        item.classList.remove("active");
+      });
+      item.classList.add('active')
+      console.log("handle");
+      let list_type_sp = "";
+      for (let i = 0; i < type_sp.length; i++) {
+        if (type_sp[i].id == item.id) {
+          console.log(item.id);
+          if (type_sp[i].children_type) {
+            for (let j = 0; j < type_sp[i].children_type.length; j++) {
+              list_type_sp += `<li id=${type_sp[i].children_type[j].id}>
+              <span>${type_sp[i].children_type[j].name}</span>
+            </li>`;
+            }
+          } else {
+            list_type_sp=''
+          }
+        }
+      }
+      branch_group_c.innerHTML = list_type_sp;
+      result_branch_b.innerHTML = item.innerHTML;
+      item.classList.add('active')
+      handle_children_type_c()
+    };
+  }
+}
+console.log(type_sp);
 const list_group_a = branch_group_a.querySelectorAll("li");
 for (const item of list_group_a) {
   item.onclick = () => {
+    list_group_a.forEach(function(item) {
+      item.classList.remove("active");
+    });
+    item.classList.add('active')
     let list_type_sp = "";
     for (let i = 0; i < type_sp.length; i++) {
       if (type_sp[i].id_group_loai == item.id) {
         console.log(item.id);
-
-        list_type_sp += `<li id=${type_sp[i].id}>
-            <span>${type_sp[i].name}</span
-            ><i class="fa-solid fa-angle-right"></i>
+        if (type_sp[i].children_type) {
+          list_type_sp += `<li id=${type_sp[i].id}>
+          <span>${type_sp[i].name}</span
+          ><i class="fa-solid fa-angle-right"></i>
           </li>`;
+        } else {
+          list_type_sp += `<li id=${type_sp[i].id}>
+          <span>${type_sp[i].name}</span>
+          </li>`;
+        }
       }
     }
     branch_group_b.innerHTML = list_type_sp;
+    result_branch_a.innerHTML = item.innerHTML;
+    item.classList.add('active')
+    handle_children_type();
   };
+}
+
+const btn_bracnh_enter = document.querySelector('.btn_bracnh_enter')
+const input_bracnh = document.querySelector('.industry_prtoduct_group input')
+btn_bracnh_enter.onclick = () => {
+  input_bracnh.value = `${result_branch_a.innerText} > ${result_branch_b.innerText} > ${result_branch_c.innerText}`;
 }
