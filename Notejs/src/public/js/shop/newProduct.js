@@ -189,7 +189,6 @@ inputElement.addEventListener("keydown", function (event) {
   }
 });
 
-console.log(group_type);
 const branch_group_a = document.querySelector(".branch_group_a");
 const branch_group_b = document.querySelector(".branch_group_b");
 const branch_group_c = document.querySelector(".branch_group_c");
@@ -209,12 +208,11 @@ function handle_children_type_c() {
 
   for (const item of list_group_c) {
     item.onclick = () => {
-      list_group_c.forEach(function(item) {
+      list_group_c.forEach(function (item) {
         item.classList.remove("active");
       });
       result_branch_c.innerHTML = item.innerHTML;
-      item.classList.add('active')
-
+      item.classList.add("active");
     };
   }
 }
@@ -223,10 +221,10 @@ function handle_children_type() {
   console.log(list_group_b);
   for (const item of list_group_b) {
     item.onclick = () => {
-      list_group_b.forEach(function(item) {
+      list_group_b.forEach(function (item) {
         item.classList.remove("active");
       });
-      item.classList.add('active')
+      item.classList.add("active");
       console.log("handle");
       let list_type_sp = "";
       for (let i = 0; i < type_sp.length; i++) {
@@ -239,25 +237,24 @@ function handle_children_type() {
             </li>`;
             }
           } else {
-            list_type_sp=''
+            list_type_sp = "";
           }
         }
       }
       branch_group_c.innerHTML = list_type_sp;
       result_branch_b.innerHTML = item.innerHTML;
-      item.classList.add('active')
-      handle_children_type_c()
+      item.classList.add("active");
+      handle_children_type_c();
     };
   }
 }
-console.log(type_sp);
 const list_group_a = branch_group_a.querySelectorAll("li");
 for (const item of list_group_a) {
   item.onclick = () => {
-    list_group_a.forEach(function(item) {
+    list_group_a.forEach(function (item) {
       item.classList.remove("active");
     });
-    item.classList.add('active')
+    item.classList.add("active");
     let list_type_sp = "";
     for (let i = 0; i < type_sp.length; i++) {
       if (type_sp[i].id_group_loai == item.id) {
@@ -276,13 +273,173 @@ for (const item of list_group_a) {
     }
     branch_group_b.innerHTML = list_type_sp;
     result_branch_a.innerHTML = item.innerHTML;
-    item.classList.add('active')
+    item.classList.add("active");
     handle_children_type();
   };
 }
 
-const btn_bracnh_enter = document.querySelector('.btn_bracnh_enter')
-const input_bracnh = document.querySelector('.industry_prtoduct_group input')
+const btn_bracnh_enter = document.querySelector(".btn_bracnh_enter");
+const input_bracnh = document.querySelector(".industry_prtoduct_group input");
 btn_bracnh_enter.onclick = () => {
   input_bracnh.value = `${result_branch_a.innerText} > ${result_branch_b.innerText} > ${result_branch_c.innerText}`;
+};
+
+const info_sell_a = document.querySelector(".info_sell_a");
+const info_sell_b = document.querySelector(".info_sell_b");
+const sell_btn = document.querySelector(".info_sell_a button");
+const group_sell_more_btn = document.querySelector(".group_sell_more button");
+let bc_info_sell = document.querySelector(".bc_info_sell");
+let sell_close_btn = document.querySelectorAll(".bc_info_sell i.fa-xmark");
+
+sell_btn.onclick = () => {
+  info_sell_a.style.display = "none";
+  info_sell_b.style.display = "block";
+};
+group_sell_more_btn.onclick = () => {
+  document.querySelector(".group_sell_more").style.display = "none";
+
+  // Chèn HTML mới sau thẻ div hiện có
+  bc_info_sell.insertAdjacentHTML(
+    "afterend",
+    `<div class="group_sell bc_info_sell">
+<i class="fa-solid fa-xmark"></i>
+<div class="row row-cols-2 info_sell_item_select">
+  <div class="info_base_item">
+    <div class="info_base_item_title">
+      <div class="mandatory sell_name">Nhóm phân loại 2</div>
+    </div>
+    <div class="info_base_item_main">
+      <div class="item_input search_input">
+        <input
+          placeholder="Vui lòng nhập ..."
+          type="text"
+          name="brand_name"
+          id="brand_name" />
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row info_sell_item_select">
+  <div class="info_base_item">
+    <div class="info_base_item_title">
+      <div class="mandatory">Phân loại hàng</div>
+    </div>
+    <div class="row row-cols-2">
+      <div class="info_base_item_main">
+        <div class="item_input search_input">
+          <input
+            placeholder="Vui lòng nhập ..."
+            type="text"
+            name="brand_name"
+            id="brand_name" />
+        </div>
+        <i class="fa-regular fa-trash-can"></i>
+      </div>
+    </div>
+  </div>
+</div>
+</div>`
+  );
+  handle_close_btn();
+  console.log(sell_close_btn);
+};
+const handle_close_btn = () => {
+  sell_close_btn = document.querySelectorAll(".bc_info_sell i.fa-xmark");
+
+  sell_close_btn.forEach(function (item) {
+    item.onclick = () => {
+      if (sell_close_btn.length == 1) {
+        console.log("hahah");
+        console.log(sell_close_btn.length);
+        info_sell_a.style.display = "block";
+        info_sell_b.style.display = "none";
+      } else {
+        console.log("ha");
+
+        item.parentElement.remove();
+        document.querySelector(".sell_name").innerText = "Nhóm phân loại 1";
+
+        document.querySelector(".group_sell_more").style.display = "block";
+        bc_info_sell = document.querySelector(".bc_info_sell");
+        sell_close_btn = document.querySelectorAll(".bc_info_sell i.fa-xmark");
+        console.log(sell_close_btn.length);
+      }
+    };
+  });
+};
+handle_close_btn();
+
+let sell_select_input = document.querySelector(
+  ".info_sell_item_select:last-child .info_base_item_main:last-child #brand_name"
+);
+let sell_select_last = document.querySelector(
+  ".info_sell_item_select:last-child .info_base_item_main:last-child"
+);
+let remove_sell_btn = document.querySelectorAll(
+  ".info_sell_item_select .info_base_item_main i.fa-trash-can"
+);
+
+let inputCount = 1;
+
+sell_select_input.addEventListener("input", handleInput);
+const inputValues = [];
+function handleInput(e) {
+  const currentInput = e.target;
+  const inputValue = currentInput.value;
+
+  if (inputValues.includes(inputValue)) {
+    console.log("hahaha");
+    return;
+  }
+
+  inputValues.push(inputValue);
+  console.log(inputValues);
+  sell_select_last.insertAdjacentHTML(
+    "afterend",
+    `<div class="info_base_item_main">
+      <div class="item_input search_input">
+        <input
+          placeholder="Vui lòng nhập ..."
+          type="text"
+          name="brand_name"
+          id="brand_name" />
+      </div>
+      <i class="fa-regular fa-trash-can"></i>
+    </div>`
+  );
+  currentInput.removeEventListener("input", handleInput);
+  sell_select_input = document.querySelector(
+    ".info_sell_item_select:last-child .info_base_item_main:last-child #brand_name"
+  );
+  sell_select_last = document.querySelector(
+    ".info_sell_item_select:last-child .info_base_item_main:last-child"
+  );
+
+  sell_select_input.addEventListener("input", handleInput);
+  handle_remove_sell()
+}
+
+const handle_remove_sell = () => {
+   remove_sell_btn = document.querySelectorAll(".info_sell_item_select .info_base_item_main i.fa-trash-can")
+
+  remove_sell_btn.forEach((item) => {
+    item.onclick = () => {
+      console.log("ok");
+      const list_select_sell = document.querySelectorAll(
+        ".info_sell_item_select:last-child .info_base_item_main #brand_name"
+      );
+      console.log(list_select_sell)
+      if (list_select_sell.length>1) {
+        item.parentElement.remove();
+      }
+      sell_select_input = document.querySelector(
+        ".info_sell_item_select:last-child .info_base_item_main:last-child #brand_name"
+      );
+      sell_select_last = document.querySelector(
+        ".info_sell_item_select:last-child .info_base_item_main:last-child"
+      );
+  sell_select_input.addEventListener("input", handleInput);
+
+    };
+  });
 }

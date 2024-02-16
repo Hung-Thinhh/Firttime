@@ -403,7 +403,12 @@
 .result_branch i{
     margin-left: 3px;
 }
-
+.info_sell_a{
+    display: block;
+}
+.info_sell_b{
+    display: none;
+}
 .info_sell_item_select .info_base_item_title{
     justify-content: flex-start;
     flex-basis: 70px;
@@ -438,6 +443,12 @@
     background-color: #f6f6f6;
     padding: 15px;
     margin-bottom: 20px;
+    position: relative;
+}
+.bc_info_sell i.fa-xmark{
+    position: absolute;
+    right: 2%;
+    cursor: pointer;
 }
 .set_all_sell_price .item_input_sl{
     border-left: 0;
