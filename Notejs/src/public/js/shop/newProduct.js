@@ -189,6 +189,19 @@ inputElement.addEventListener("keydown", function (event) {
   }
 });
 
+function generateRandomId() {
+  const characters =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  let id = "";
+
+  for (let i = 0; i < 5; i++) {
+    const randomIndex = Math.floor(Math.random() * characters.length);
+    id += characters.charAt(randomIndex);
+  }
+
+  return id;
+}
+
 const branch_group_a = document.querySelector(".branch_group_a");
 const branch_group_b = document.querySelector(".branch_group_b");
 const branch_group_c = document.querySelector(".branch_group_c");
@@ -297,11 +310,15 @@ sell_btn.onclick = () => {
 };
 group_sell_more_btn.onclick = () => {
   document.querySelector(".group_sell_more").style.display = "none";
-
+  let check = document.querySelector(".bc_info_sell_b");
+  if (check) {
+    check.classList.remove("bc_info_sell_b");
+    check.classList.add("bc_info_sell_a");
+  }
   // Chèn HTML mới sau thẻ div hiện có
   bc_info_sell.insertAdjacentHTML(
     "afterend",
-    `<div class="group_sell bc_info_sell">
+    `<div class="group_sell bc_info_sell bc_info_sell_b">
 <i class="fa-solid fa-xmark"></i>
 <div class="row row-cols-2 info_sell_item_select">
   <div class="info_base_item">
@@ -314,7 +331,8 @@ group_sell_more_btn.onclick = () => {
           placeholder="Vui lòng nhập ..."
           type="text"
           name="brand_name"
-          id="brand_name" />
+          class="brand_name brand_name_main"
+          id = ${generateRandomId()}/>
       </div>
     </div>
   </div>
@@ -331,7 +349,8 @@ group_sell_more_btn.onclick = () => {
             placeholder="Vui lòng nhập ..."
             type="text"
             name="brand_name"
-            id="brand_name" />
+            class="brand_name"
+          id = ${generateRandomId()} />
         </div>
         <i class="fa-regular fa-trash-can"></i>
       </div>
@@ -341,7 +360,7 @@ group_sell_more_btn.onclick = () => {
 </div>`
   );
   handle_close_btn();
-  console.log(sell_close_btn);
+  handle_sell_select_b();
 };
 const handle_close_btn = () => {
   sell_close_btn = document.querySelectorAll(".bc_info_sell i.fa-xmark");
@@ -369,77 +388,244 @@ const handle_close_btn = () => {
 };
 handle_close_btn();
 
-let sell_select_input = document.querySelector(
-  ".info_sell_item_select:last-child .info_base_item_main:last-child #brand_name"
+let sell_select_input_a = document.querySelector(
+  ".bc_info_sell_a .info_sell_item_select:last-child .info_base_item_main:last-child .brand_name"
 );
-let sell_select_last = document.querySelector(
-  ".info_sell_item_select:last-child .info_base_item_main:last-child"
+let sell_select_last_a = document.querySelector(
+  ".bc_info_sell_a .info_sell_item_select:last-child .info_base_item_main:last-child"
 );
-let remove_sell_btn = document.querySelectorAll(
-  ".info_sell_item_select .info_base_item_main i.fa-trash-can"
+let remove_sell_btn_a = document.querySelectorAll(
+  ".bc_info_sell_a .info_sell_item_select .info_base_item_main i.fa-trash-can"
 );
 
-let inputCount = 1;
+const inputValues_a = [];
+const inputValues_b = [];
 
-sell_select_input.addEventListener("input", handleInput);
-const inputValues = [];
-function handleInput(e) {
-  const currentInput = e.target;
-  const inputValue = currentInput.value;
+const handle_col_table_sell = () => {
+  const table = document.querySelector(".table");
+   // Sửa nội dung các ô trong cột đầu tiên
+   const bodyRows = table.getElementsByTagName("tbody")[0].getElementsByTagName("tr");
+   for (let i = 0; i < bodyRows.length; i++) {
+     const bodyRow = bodyRows[i];
+     const firstCell = bodyRow.cells[0];
+     firstCell.textContent = inputValues_a[i].value;
+   }
+}
+const handle_change_sell_input_a = (e) => {
+  let list_sell_input = document.querySelectorAll(
+    ".info_sell_item_select .search_input"
+  );
+  list_sell_input.forEach((item) => {
+    item.onchange = () => {
+      console.log("hahah");
+      const currentInput = e.target;
+      const inputValue = currentInput.value;
+      const updatedObject = { id: currentInput.id, value: inputValue };
 
-  if (inputValues.includes(inputValue)) {
-    console.log("hahaha");
-    return;
-  }
+      // Tìm vị trí của đối tượng cần thay đổi trong mảng
+      const index = inputValues_a.findIndex(
+        (obj) => obj.id === updatedObject.id
+      );
 
-  inputValues.push(inputValue);
-  console.log(inputValues);
-  sell_select_last.insertAdjacentHTML(
-    "afterend",
-    `<div class="info_base_item_main">
+      if (index !== -1) {
+        // Thay đổi đối tượng tại vị trí đã tìm thấy
+        console.log("ok");
+        inputValues_a[index] = updatedObject;
+handle_col_table_sell()
+
+      }
+    };
+  });
+};
+const handle_change_sell_input_b = (e) => {
+  let list_sell_input = document.querySelectorAll(
+    ".bc_info_sell_b .info_sell_item_select .search_input"
+  );
+  list_sell_input.forEach((item) => {
+    item.onchange = () => {
+      console.log("hahah");
+      const currentInput = e.target;
+      const inputValue = currentInput.value;
+      const updatedObject = { id: currentInput.id, value: inputValue };
+
+      // Tìm vị trí của đối tượng cần thay đổi trong mảng
+      const index = inputValues_b.findIndex(
+        (obj) => obj.id === updatedObject.id
+      );
+
+      if (index !== -1) {
+        // Thay đổi đối tượng tại vị trí đã tìm thấy
+        console.log("ok");
+        inputValues_b[index] = updatedObject;
+      }
+    };
+  });
+};
+
+const handle_sell_select_a = () => {
+  sell_select_input_a.addEventListener("input", handleInput);
+
+  function handleInput(e) {
+    const currentInput = e.target;
+    const inputValue = currentInput.value;
+
+    if (inputValues_a.includes(inputValue)) {
+      console.log("hahaha");
+      return;
+    }
+
+    inputValues_a.push({ id: currentInput.id, value: "" });
+
+    console.log(inputValues_a);
+    sell_select_last_a.insertAdjacentHTML(
+      "afterend",
+      `<div class="info_base_item_main">
       <div class="item_input search_input">
         <input
           placeholder="Vui lòng nhập ..."
           type="text"
           name="brand_name"
-          id="brand_name" />
+          class="brand_name"
+          id = ${generateRandomId()}/>
       </div>
       <i class="fa-regular fa-trash-can"></i>
     </div>`
-  );
-  currentInput.removeEventListener("input", handleInput);
-  sell_select_input = document.querySelector(
-    ".info_sell_item_select:last-child .info_base_item_main:last-child #brand_name"
-  );
-  sell_select_last = document.querySelector(
-    ".info_sell_item_select:last-child .info_base_item_main:last-child"
-  );
+    );
+    currentInput.removeEventListener("input", handleInput);
+    sell_select_input_a = document.querySelector(
+      `.bc_info_sell_a .info_sell_item_select:last-child .info_base_item_main:last-child .brand_name`
+    );
+    sell_select_last_a = document.querySelector(
+      `.bc_info_sell_a .info_sell_item_select:last-child .info_base_item_main:last-child`
+    );
+    console.log(sell_select_input_a);
+    sell_select_input_a.addEventListener("input", handleInput);
+    handle_change_sell_input_a(e);
 
-  sell_select_input.addEventListener("input", handleInput);
-  handle_remove_sell()
+    handle_remove_sell();
+  }
+
+  const handle_remove_sell = () => {
+    remove_sell_btn_a = document.querySelectorAll(
+      `.bc_info_sell_a .info_sell_item_select .info_base_item_main i.fa-trash-can`
+    );
+
+    remove_sell_btn_a.forEach((item) => {
+      item.onclick = () => {
+        console.log("ok");
+        const list_select_sell_a = document.querySelectorAll(
+          `.bc_info_sell_a .info_sell_item_select:last-child .info_base_item_main .brand_name`
+        );
+        console.log(list_select_sell);
+        if (list_select_sell_a.length > 1) {
+          item.parentElement.remove();
+        }
+        sell_select_input_a = document.querySelector(
+          `.bc_info_sell_a .info_sell_item_select:last-child .info_base_item_main:last-child .brand_name`
+        );
+        sell_select_last_a = document.querySelector(
+          `.bc_info_sell_a .info_sell_item_select:last-child .info_base_item_main:last-child`
+        );
+        sell_select_input_a.addEventListener("input", handleInput);
+      };
+    });
+  };
+};
+const handle_sell_select_b = () => {
+  let sell_select_input_b = document.querySelector(
+    ".bc_info_sell_b .info_sell_item_select:last-child .info_base_item_main:last-child .brand_name"
+  );
+  let sell_select_last_b = document.querySelector(
+    ".bc_info_sell_b .info_sell_item_select:last-child .info_base_item_main:last-child"
+  );
+  let remove_sell_btn_b = document.querySelectorAll(
+    ".bc_info_sell_b .info_sell_item_select .info_base_item_main i.fa-trash-can"
+  );
+  sell_select_input_b.addEventListener("input", handleInput);
+  function handleInput(e) {
+    const currentInput = e.target;
+    const inputValue = currentInput.value;
+
+    if (inputValues_b.includes(inputValue)) {
+      console.log("hahaha");
+      return;
+    }
+
+    inputValues_b.push({ id: currentInput.id, value: "" });
+    console.log(inputValues_b);
+    sell_select_last_b.insertAdjacentHTML(
+      "afterend",
+      `<div class="info_base_item_main">
+      <div class="item_input search_input">
+        <input
+          placeholder="Vui lòng nhập ..."
+          type="text"
+          name="brand_name"
+          class="brand_name"
+          id = ${generateRandomId()} />
+      </div>
+      <i class="fa-regular fa-trash-can"></i>
+    </div>`
+    );
+    currentInput.removeEventListener("input", handleInput);
+    sell_select_input_b = document.querySelector(
+      `.bc_info_sell_b .info_sell_item_select:last-child .info_base_item_main:last-child .brand_name`
+    );
+    sell_select_last_b = document.querySelector(
+      `.bc_info_sell_b .info_sell_item_select:last-child .info_base_item_main:last-child`
+    );
+    console.log(sell_select_input_b);
+    sell_select_input_b.addEventListener("input", handleInput);
+    handle_change_sell_input_b(e);
+    handle_remove_sell();
+  }
+
+  const handle_remove_sell = () => {
+    remove_sell_btn_b = document.querySelectorAll(
+      `.bc_info_sell_b .info_sell_item_select .info_base_item_main i.fa-trash-can`
+    );
+
+    remove_sell_btn_b.forEach((item) => {
+      item.onclick = () => {
+        console.log("ok");
+        const list_select_sell_b = document.querySelectorAll(
+          `.bc_info_sell_b .info_sell_item_select:last-child .info_base_item_main .brand_name`
+        );
+        console.log(list_select_sell);
+        if (list_select_sell_b.length > 1) {
+          item.parentElement.remove();
+        }
+        sell_select_input_b = document.querySelector(
+          `.bc_info_sell_b .info_sell_item_select:last-child .info_base_item_main:last-child .brand_name`
+        );
+        sell_select_last_b = document.querySelector(
+          `.bc_info_sell_b .info_sell_item_select:last-child .info_base_item_main:last-child`
+        );
+        sell_select_input_b.addEventListener("input", handleInput);
+      };
+    });
+  };
+};
+
+handle_sell_select_a();
+
+const table = document.querySelector(".table");
+const headerRow = table
+  .getElementsByTagName("thead")[0]
+  .getElementsByTagName("tr")[0];
+const newHeaderCell = document.createElement("th");
+newHeaderCell.textContent = "Địa chỉ mới";
+headerRow.insertBefore(newHeaderCell, headerRow.cells[1]);
+// Lặp qua từng hàng (table row) trong tbody
+const rows = table.getElementsByTagName("tbody")[0].getElementsByTagName("tr");
+for (let i = 0; i < rows.length; i++) {
+  const row = rows[i];
+
+  // Tạo một ô (table cell) mới
+  const newCell = document.createElement("td");
+  newCell.textContent = "Địa chỉ mới";
+
+  // Chèn ô mới vào sau ô đầu tiên trong hàng
+  row.insertBefore(newCell, row.cells[1]);
 }
 
-const handle_remove_sell = () => {
-   remove_sell_btn = document.querySelectorAll(".info_sell_item_select .info_base_item_main i.fa-trash-can")
-
-  remove_sell_btn.forEach((item) => {
-    item.onclick = () => {
-      console.log("ok");
-      const list_select_sell = document.querySelectorAll(
-        ".info_sell_item_select:last-child .info_base_item_main #brand_name"
-      );
-      console.log(list_select_sell)
-      if (list_select_sell.length>1) {
-        item.parentElement.remove();
-      }
-      sell_select_input = document.querySelector(
-        ".info_sell_item_select:last-child .info_base_item_main:last-child #brand_name"
-      );
-      sell_select_last = document.querySelector(
-        ".info_sell_item_select:last-child .info_base_item_main:last-child"
-      );
-  sell_select_input.addEventListener("input", handleInput);
-
-    };
-  });
-}
