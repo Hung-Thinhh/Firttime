@@ -359,9 +359,113 @@ group_sell_more_btn.onclick = () => {
 </div>
 </div>`
   );
+  const table = document.querySelector(".table");
+  const headerRow = table
+    .getElementsByTagName("thead")[0]
+    .getElementsByTagName("tr")[0];
+  const newHeaderCell = document.createElement("th");
+  newHeaderCell.textContent = "Nhóm phân loại 2";
+  newHeaderCell.classList.add("brand_name_main_b")
+  headerRow.insertBefore(newHeaderCell, headerRow.cells[1]);
+  // Lặp qua từng hàng (table row) trong tbody
+  const rows = table
+    .getElementsByTagName("tbody")[0]
+    .getElementsByTagName("tr");
+  for (let i = 0; i < rows.length; i++) {
+    const row = rows[i];
+
+    // Tạo một ô (table cell) mới
+    const newCell = document.createElement("td");
+    newCell.textContent = "";
+
+    // Chèn ô mới vào sau ô đầu tiên trong hàng
+    row.insertBefore(newCell, row.cells[1]);
+  }
+handle_brand_name_main_table()
+
   handle_close_btn();
   handle_sell_select_b();
 };
+const hadle_insert_table = () => {
+  const table = document.querySelector('table'); // Lấy bảng theo id
+  const theadRow = table.querySelector("thead tr"); // Lấy hàng đầu tiên trong phần thead
+
+  const columnCount = theadRow.querySelectorAll("th").length;
+  
+const tbody = table.getElementsByTagName("tbody")[0]; // Lấy phần tbody của bảng
+
+// Tạo hàng mới
+const newRow = document.createElement("tr");
+  if (columnCount == 3) {
+
+  // Tạo các ô mới cho hàng
+  const cell1 = document.createElement("td");
+  cell1.textContent = ""; // Thiết lập nội dung cho ô đầu tiên
+
+  const cell2 = document.createElement("td");
+  cell2.innerHTML = `<div class="set_all_sell_price search_input">
+  <div class="item_input_sl">
+    <span>₫</span>
+  </div>
+  <input type="text" placeholder="Giá" />
+</div>`; // Thiết lập nội dung cho ô thứ hai
+
+  const cell3 = document.createElement("td");
+  cell3.innerHTML = `<div class="set_all_sell_price search_input">
+  <input type="text" value="0" />
+</div>`; // Thiết lập nội dung cho ô thứ ba
+
+  // Thêm các ô vào hàng mới
+  newRow.appendChild(cell1);
+  newRow.appendChild(cell2);
+  newRow.appendChild(cell3);
+
+  // Thêm hàng mới vào cuối phần tbody của bảng
+  tbody.appendChild(newRow);
+  } else {
+    // Tạo các ô mới cho hàng
+  const cell1 = document.createElement("td");
+  cell1.textContent = ""; // Thiết lập nội dung cho ô đầu tiên
+  const cell2 = document.createElement("td");
+  cell2.textContent = "";
+  const cell3 = document.createElement("td");
+  cell3.innerHTML = `<div class="set_all_sell_price search_input">
+  <div class="item_input_sl">
+    <span>₫</span>
+  </div>
+  <input type="text" placeholder="Giá" />
+</div>`; // Thiết lập nội dung cho ô thứ hai
+
+  const cell4 = document.createElement("td");
+  cell4.innerHTML = `<div class="set_all_sell_price search_input">
+  <input type="text" value="0" />
+</div>`; // Thiết lập nội dung cho ô thứ ba
+
+  // Thêm các ô vào hàng mới
+  newRow.appendChild(cell1);
+  newRow.appendChild(cell2);
+  newRow.appendChild(cell3);
+  newRow.appendChild(cell4);
+
+  // Thêm hàng mới vào cuối phần tbody của bảng
+  tbody.appendChild(newRow);
+  }
+}
+const handle_brand_name_main_table = () => {
+  const brand_name_main = document.querySelectorAll(".brand_name_main"); 
+  for (let i = 0; i < brand_name_main.length; i++){
+    const table = document.querySelector(".table");
+    
+    brand_name_main[i].onchange = (e) => {
+        console.log(table.getElementsByTagName("thead")[0].getElementsByTagName("th")[i])
+        const firstCell = table.getElementsByTagName("thead")[0].getElementsByTagName("th")[i];
+    firstCell.textContent = e.target.value;
+      };
+  }
+  
+}
+handle_brand_name_main_table()
+
 const handle_close_btn = () => {
   sell_close_btn = document.querySelectorAll(".bc_info_sell i.fa-xmark");
 
@@ -403,14 +507,16 @@ const inputValues_b = [];
 
 const handle_col_table_sell = () => {
   const table = document.querySelector(".table");
-   // Sửa nội dung các ô trong cột đầu tiên
-   const bodyRows = table.getElementsByTagName("tbody")[0].getElementsByTagName("tr");
-   for (let i = 0; i < bodyRows.length; i++) {
-     const bodyRow = bodyRows[i];
-     const firstCell = bodyRow.cells[0];
-     firstCell.textContent = inputValues_a[i].value;
-   }
-}
+  // Sửa nội dung các ô trong cột đầu tiên
+  const bodyRows = table
+    .getElementsByTagName("tbody")[0]
+    .getElementsByTagName("tr");
+  for (let i = 0; i < bodyRows.length; i++) {
+    const bodyRow = bodyRows[i];
+    const firstCell = bodyRow.cells[0];
+    firstCell.textContent = inputValues_a[i].value;
+  }
+};
 const handle_change_sell_input_a = (e) => {
   let list_sell_input = document.querySelectorAll(
     ".info_sell_item_select .search_input"
@@ -431,8 +537,7 @@ const handle_change_sell_input_a = (e) => {
         // Thay đổi đối tượng tại vị trí đã tìm thấy
         console.log("ok");
         inputValues_a[index] = updatedObject;
-handle_col_table_sell()
-
+        handle_col_table_sell();
       }
     };
   });
@@ -500,6 +605,10 @@ const handle_sell_select_a = () => {
     );
     console.log(sell_select_input_a);
     sell_select_input_a.addEventListener("input", handleInput);
+    console.log(document.querySelectorAll('.bc_info_sell_a .info_sell_item_select:last-child .info_base_item_main .brand_name').length)
+    if (document.querySelectorAll('.bc_info_sell_a .info_sell_item_select:last-child .info_base_item_main .brand_name').length>2) {
+      hadle_insert_table()
+    }
     handle_change_sell_input_a(e);
 
     handle_remove_sell();
@@ -608,24 +717,3 @@ const handle_sell_select_b = () => {
 };
 
 handle_sell_select_a();
-
-const table = document.querySelector(".table");
-const headerRow = table
-  .getElementsByTagName("thead")[0]
-  .getElementsByTagName("tr")[0];
-const newHeaderCell = document.createElement("th");
-newHeaderCell.textContent = "Địa chỉ mới";
-headerRow.insertBefore(newHeaderCell, headerRow.cells[1]);
-// Lặp qua từng hàng (table row) trong tbody
-const rows = table.getElementsByTagName("tbody")[0].getElementsByTagName("tr");
-for (let i = 0; i < rows.length; i++) {
-  const row = rows[i];
-
-  // Tạo một ô (table cell) mới
-  const newCell = document.createElement("td");
-  newCell.textContent = "Địa chỉ mới";
-
-  // Chèn ô mới vào sau ô đầu tiên trong hàng
-  row.insertBefore(newCell, row.cells[1]);
-}
-
